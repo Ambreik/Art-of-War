@@ -1,0 +1,52 @@
+### Passive Ability Survival Instincts  
+Type Passive Ability  
+Category Exploration & Utility  
+Purpose Allows players to detect and disarm environmental traps, navigate dangerous terrain, and improve resource gathering efficiency in hostile environments.  
+
+---
+
+### How Players Learn the Passive Ability  
+- Unlocked Automatically All players gain a basic level of Survival Instincts upon entering Azurr Forest for the first time. This represents their growing awareness of the dangers within the region.  
+- Progression System The ability improves through use, meaning players who actively disarm traps, navigate hazardous areas, or gather resources in dangerous zones will naturally enhance their effectiveness.  
+- Training Option While the passive improves through experience, certain NPCs (e.g., rangers, veteran hunters) in taverns or settlements may offer tips or minor quests that further enhance its effectiveness.  
+
+---
+
+### Mechanics of Survival Instincts  
+This passive ability provides three core functions that scale as the player interacts with the environment.  
+
+#### 1. Trap Detection & Disarmament  
+- Players with Survival Instincts will occasionally notice warning signs of traps, such as subtle ground disturbances, tripwires, or faint glows from magical snares.  
+- Disarming a trap is a timed interaction that requires the player to focus.  
+- Types of Traps in Azurr Forest  
+  - Hunting Traps – Metal leg snares used by poachers and hunters.  
+  - Poisonous Vines – Enchanted plant growth that constricts victims.  
+  - Bandit Pitfalls – Hidden holes covered with leaves and branches.  
+  - Ancient Ruin Glyphs – Magical pressure plates that trigger effects.  
+- Failure Consequences Failing to disarm a trap can result in damage, a temporary debuff (bleeding, slow movement, poison), or triggering an ambush event.  
+
+#### 2. Hazardous Terrain Navigation  
+- Certain areas of Azurr Forest contain swampy ground, dense thorns, unstable cliffs, and magical anomalies that can slow or damage players.  
+- Players with this passive ability gain  
+  - Reduced movement penalties in thick underbrush or muddy terrain.  
+  - A chance to find alternative safe paths when moving through dangerous zones.  
+  - Resistance against environmental hazards (e.g., fewer injuries from falls, reduced poison duration).  
+
+#### 3. Enhanced Resource Gathering in Hostile Areas  
+- Players with Survival Instincts have a better chance to  
+  - Gather rare herbs and materials hidden in dangerous zones.  
+  - Track wildlife movements for hunting.  
+  - Recognize fake or trapped resources (e.g., a glowing mushroom that is actually a carnivorous plant).  
+
+---
+
+### Upgrades & Scaling of the Passive  
+The more a player interacts with the environment, the more refined their Survival Instincts become  
+- Tier 1 Basic trap detection, small chance of success when disarming.  
+- Tier 2 Improved trap disarming, reduced damage from hazards.  
+- Tier 3 Can spot hidden paths, greater efficiency in gathering resources.  
+- Tier 4 Near-perfect trap detection, ability to re-arm traps for personal use.  
+
+---
+
+This passive ability ensures exploration-focused players gain an advantage in Azurr Forest while keeping the mechanics engaging and immersive. Let me know if you'd like any modifications!
