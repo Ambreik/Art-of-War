@@ -1,0 +1,1 @@
+- "The Blacksmith’s Forge": Located near the Central Side, this is where players can craft, repair, and upgrade their equipment. The forge is run by skilled artisans who provide weapon enhancements. aici sunt 3 blacksmith, unul repara, altul crafteaza doar itemele de lv70+ altul face alte chestii (ca sa fie descris)
