@@ -1,0 +1,44 @@
+Droll PvM its a seal just for Vampires. With this seal , they are capable to summon a powerful pet to help in pvm combats. This seal its reward for lv. 90 in the Special Box.Once you have this seal , go to the Horse Keeper and he explain all it need to know about this droll. There you must choose what type you want to be the new pvm mob you have.
+	Are 2 types :
+- fast in attack with piecing and huge damage. Here the 
+- slow in attack but very straight in defensive.
+
+	This mobs have the capability to attract all the monsters to they , when the player use the bravery cape. 
+	Experience its absorb 90% by player and 10% PvM mob until he make maximum level and then the player gave the entire experience from the killed mobs.
+	Depends what level they are , have a specific support for mobs like that :
+	
+At lv. 1 PvM Mob have a 5 minute time and then go back and need to wait 3 minute before you summon again. He support 5 mobs at the same time.
+La lv. 2 PvM Mob have a 10 minute time and then go back and need to wait 3 minute before you summon again. He support 6 mobs at the same time.
+la lv. 3 PvM Mob have a 15 minute time and then go back and need to wait 3 minute before you summon again. He support 8 mobs at the same time.
+La lv. 4 PvM Mob have a 20 minute time and then go back and need to wait 3 minute before you summon again. He support 12 mobs at the same time.
+La lv. 5 PvM Mob have a 30 minute time and then go back and need to wait 3 minute before you summon again. He support 20 mobs at the same time.
+All other monsters will attack the character.
+
+*Status
+For each level he gain 1 status point and when reach a maximum lv 5. he gain 2 status points.
+The status contains :
+
+STR	-	attack for mob. 5 value per point
+DEX	-	defence for mob. 10 value per point. 
+ATM	-	magic attack  value , for player only. 10 value per point
+ATT	-	attack value , for player only. 10 value per point.
+ATB	- 	chance to stun , for player only. 2 value per point.
+ATP - 	change to poison , for player only. 2 value per point.
+
+Status Values
+* HP = 10050
+* attack = 320 - 480
+* magic attack = 3.000 (have just a skill - throw a spider web with effect to slow the target and give him a huge damage)
+* defence = 600.
+
+They are immune tu slow , poison , stun , silence , blind , arrows.
+They have a stack for that skill.When he stack 20 hits , he throw that spider web and neutralized the target.
+With their hits they have the ability to slow , poison or stun the targets.
+
+There is a potion that doubles the mob duration; it can be used only for lv. 4 & lv. 5. It's called Zen Potion.
+Once the time expires , you need to wait 3 minutes to called again the mob. If he die in combat you need to wait 10 minutes before you are able to summon again.
+*this PVM Mob can die only if he receives from bosses a higher damage with 100% of his HP's.
+
+
+Can not be used simultaneously with PvP Mobs and mounts.
+They are able to receive buff from shamans or group runes.
