@@ -1,0 +1,13 @@
+Este acelasi event ca pe Oficial.
+
+Orice mob dropeaza oua de paste.
+Metinele speciale/ [Metinele Ou] - cu inceputul acestui event , se respawneaza cate un metin in fiecare harta , aproximativ.
+				  - odata spart acest metin , vor aparea alte 2 , cu fiecare metin spart se vor respawna alte 2 metine consecutiv.
+				  - aceste metine dropeaza un [Ou Special].
+Bosii dropeaza un [Ou Special] pe care il poti deschide de 3 ori.
+In Farm Map metinele nu dropeaza aceste oua magice decat Bossul sef de aici dropeaza.
+
+Iepurasul de paste - este in Map1 de lv 1 si map1 de lv 140.
+				   - ouale colectate le pui peste acest iepure si castigi diverse premii.
+				   
+Eventul este activ 7 zile.

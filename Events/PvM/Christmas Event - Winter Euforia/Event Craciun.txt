@@ -1,0 +1,27 @@
+Odata cu inceperea sezonului de craciun se incepe acest event.
+
+Toti mobii jocului dropeaza 3 iteme
+- [ Kwismas_Gift ] pentru barbati.
+- [ Pauper_Gift ] pentru femei.
+- snowglobe 10% sansa de drop.
+- Kwismas_Nibble - la 10 bomboane stranse mosul iti ofera un cufar [Gobball_Gift]. Au sansa de 5% de drop.
+Mobii din map1 nu dropeaza absolut nici unul din aceste iteme.
+
+Cu primele 2 cadouri te duci la mos craciun si iti ofera [ Pile_of_Gifts ]
+Snowglobe trebuie dus la bradul de craciun.Iti ofera aleatoriu un cadou :
+- Elixir G red
+- Elixir G blue
+- costum M craciun
+- costum F craciun
+- skin pet craciun
+- skin mount craciun
+- freaza de craciun.
+
+Odata pe zi poti prepara un item numit [Sprig_of_Holly] cu care maresti sansa de a dropa cele 3 iteme cu 25%.
+- smokine
+- Spring Leaf
+
+Alte dropuri 
+- Kwismas_Spiced_Apple_Juice - nu au limita de timp.
+- Kwismas_Log - expira in 24 ore.
+- artificiile acelea toate culorile.

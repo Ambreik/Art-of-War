@@ -1,0 +1,15 @@
+In prima zi a eventului , Vanatorul din map3 cheama toti playerii pentru o misiune de start:
+- in functie de lv playerilor sa aduca :
+	# lv 1 - 90  - 20x 50902
+	# lv 90 - 140 - 20x 50903
+	# lv 140 - 175 - 30x 50904
+Odata aduse aceste carti la Vanator , sa ii accepte inceperea dropului pentru dovleci.
+Toti mobii dropeaza dovleci , bossi dropeaza si cate 5x dovleac 
+
+Metinele 
+- [Halloween_Pumpkin] - ne-negociabil , ne-stack-abil.
+- [Magic Wand] - cheia pentru cufar , rata mica de drop , negociabila , stack-abila.
+
+Jack Pumpkin's
+- daca pui 50 dovlecei peste el primesti [Halloween_Pumpkin] si [Magic Wand]
+- daca pui 20 dovlecei peste el primesti [Magic Wand]

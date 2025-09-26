@@ -1,0 +1,116 @@
+Gretting,
+
+game.drop_item_with_ownership is only in 2010er files, you must include in quest_functions
+
+
+
+quest pascua begin
+	state start begin
+		when kill with game.get_event_flag("pascua") == 1 and game.get_event_flag("guerra") == 0 and not npc.is_pc() begin  --guerra == threeway_war
+			local s=number(1, 400)
+			local h=number(1, 20)
+			if s <= 5 then
+        if h==1 then 
+          game.drop_item_with_ownership(50160,1)
+
+          syschat("Has encontrado un Huevito de Pascua")
+        elseif h==2 then
+
+          game.drop_item_with_ownership(50161,1)
+          syschat("Has encontrado un Huevito de Pascua")
+        elseif h==3 then
+
+          game.drop_item_with_ownership(50162,1)
+          syschat("Has encontrado un Huevito de Pascua")
+        elseif h==4 then
+
+          game.drop_item_with_ownership(50163,1)
+          syschat("Has encontrado un Huevito de Pascua")
+        elseif h==5 then
+
+          game.drop_item_with_ownership(50164,1)
+          syschat("Has encontrado un Huevito de Pascua")
+        elseif h==6 then
+
+          game.drop_item_with_ownership(50165,1)
+          syschat("Has encontrado un Huevito de Pascua")
+        elseif h==7 then
+
+          game.drop_item_with_ownership(50166,1)
+          syschat("Has encontrado un Huevito de Pascua")
+        elseif h==8 then
+          game.drop_item_with_ownership(18,1)
+          game.drop_item_with_ownership(50167,1)
+          syschat("Has encontrado un Huevito de Pascua")
+        elseif h==9 then
+
+          game.drop_item_with_ownership(50168,1)
+          syschat("Has encontrado un Huevito de Pascua")
+        elseif h==10 then
+
+          game.drop_item_with_ownership(50169,1)
+          syschat("Has encontrado un Huevito de Pascua")
+        elseif h==11 then
+
+          game.drop_item_with_ownership(50170,1)
+          syschat("Has encontrado un Huevito de Pascua")
+        elseif h==12 then
+
+          game.drop_item_with_ownership(50171,1)
+          syschat("Has encontrado un Huevito de Pascua")
+        elseif h==13 then
+
+          game.drop_item_with_ownership(50172,1)
+          syschat("Has encontrado un Huevito de Pascua")
+        elseif h==14 then
+
+          game.drop_item_with_ownership(50173,1)
+          syschat("Has encontrado un Huevito de Pascua")
+        elseif h==15 then
+
+          game.drop_item_with_ownership(50174,1)
+          syschat("Has encontrado un Huevito de Pascua")
+        elseif h==16 then
+
+          game.drop_item_with_ownership(50175,1)
+          syschat("Has encontrado un Huevito de Pascua")
+        elseif h==17 then
+
+          game.drop_item_with_ownership(50176,1)
+          syschat("Has encontrado un Huevito de Pascua")
+        elseif h==18 then
+
+          game.drop_item_with_ownership(50177,1)
+          syschat("Has encontrado un Huevito de Pascua")
+        elseif h==19 then
+
+          game.drop_item_with_ownership(50178,1)
+          syschat("Has encontrado un Huevito de Pascua")
+        elseif h==20 then
+
+          game.drop_item_with_ownership(50179,1)
+          syschat("Has encontrado un Huevito de Pascua")
+        end
+      			
+			end
+		end
+  when login with game.get_event_flag("pascua") == 1 begin
+      notice("*_Evento de Pascua en MetinZ_*")
+  end
+  when letter with game.get_event_flag("pascua") == 1 begin
+			send_letter("Evento de Pascua")
+	end
+	when button or info with game.get_event_flag("pascua") == 1 begin
+			say_title("Evento de Pascua")
+			say("En estos dias el Conejo de Pascua ha dejado")
+			say("Muchos huevitos para ti, encuentralos!.")
+			say("")
+    end
+		      
+  end
+  state __COMPLETE__ begin
+		when enter begin
+			q.done()
+		end
+	end
+end
