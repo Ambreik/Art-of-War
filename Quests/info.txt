@@ -1,0 +1,1 @@
+check "Hidden Treasures in the Underwater Realm" for items that start hidden quests

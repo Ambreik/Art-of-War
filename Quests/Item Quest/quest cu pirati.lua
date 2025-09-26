@@ -1,0 +1,2 @@
+un quest care incepe cand deschizi un plic, gasit in "Highland Island". Acest quest este un chain-quest si implica sa interactionezi cu "Commander Morgan Toothless"
+ce poate fii gasit pe "The Night Traveller Ship", doar cand acesta apare in lounge pentru a bea, moment care este foarte rar.
