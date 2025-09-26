@@ -1,0 +1,5 @@
+Successful reading of this book increases the skill of calling your horse.
+Drop : 
+high chance in Monkey Dungeon
+low change in Farm Map
+If book reading failed you can read a book again.

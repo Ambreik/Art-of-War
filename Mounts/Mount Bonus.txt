@@ -1,0 +1,28 @@
+	Mounturi Simple - poti ataca de pe aceste mount-uri dar nu poti folosii skill-urile calului.
+Leu - 150 ATAC
+Tigru - 100 aparare
+Lup	- 10 abs Pv + PM
+	Mounturi Puternice - poti ataca de pe aceste mount-uri si poti folosii skill-urile calului odata ce le evoluezi.
+Mistret - 20% tare la mobi
+Leopard	- 15% tare la semi-om
+Leu alb - 20% exp
+Ren - viteza de atac + 25
+	Alte Mount-uri - nu poti ataca de pe aceste mount-uri dar poti folosii skill-urile de pe cal.
+Arctic Bird - 100 Vit Miscare
+Dino - 100 Vit Miscare
+
+	Mounturile Puternice.
+Odata dropate aceste mount-uri sunt inutile pana ce nu le evoluezi.Te duci la grajdarul satului iar el iti va cere 2 Iteme:
+a.Pergamentul exorcizarii - cu acesta evoluezi mount-ul.Adica il faci sa poti ataca de pe el.
+b.Cristal de foc - cu acesta creezi mountului abilitatea de a da bonus.
+Aceste pergamente sunt dropabile in Temnita maimutelor.
+Aceste sigilii puternice pot fii folosite de la lv 140.
+
+Sigiliile simple sunt dropate la metinele din map2 si map3 si poti ataca doar de pe ele.Skill-urile calului nu pot fi folosite.
+Nu au limita de timp.
+Sigiliile mount-urilor puternice se evolueaza din cele simple cu cele 2 iteme care sunt dropate in temmita maimutelor si au ca limita de timp 480 ore,
+dispar.Se poate ataca de pe ele si se pot folosii skill-urile calului.
+Sigiliile mount-urilor Extra sunt doar pentru a calatorii.Ele ofera celui ce il calareste 100 viteza de miscare.
+
+Unele mounturi au si skin-uri, dar ofera aceleasi bonusuri.Skill-urile sunt dropate in cuferele bosilor din temmita maimutelor sau la bosii si metinele din 
+mapele de 130.

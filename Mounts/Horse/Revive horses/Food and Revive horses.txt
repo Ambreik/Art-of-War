@@ -1,0 +1,18 @@
+Each horse has a particular type of metabolism.
+
+Basic Horse need to eat "Basic Herb" each 2 hours if stay mounted.
+Armed Horse need to eat "Mystic Herb" each 4 hours if stay mounted.
+Assault Horse need to eat "Lotus Flower" each 6 hours if stay mounted.
+Legendary Horse need to drink "Purified Water" every 6 hours if stay mounted.
+
+If first 3 horses didn't eat and they are very low in health , they die.
+Legendary Horse don't die but just is not able do give rider's the natural bonuses. If had 1% health , need to drink 25x "Purified Water" for full health.
+
+If you have the horse dead , need to farm and drop a specific item like that.
+
+Basic Horse - Garnet Horse Jewel
+Armed Horse - Emerald Horse Jewel
+Assault Horse - Ruby Horse Jewel
+Then need to go to Horse Keeper and specific what you want "Revive my Horse" .
+
+Purified Water its a rare item , and for that you need to kill a high rank bosses from level 140+ and stones.
