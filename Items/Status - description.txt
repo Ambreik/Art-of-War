@@ -1,0 +1,13 @@
+Status
+- VITality - hp caractere
+- INTeligence - mana caractere
+- STRenght - putere caractere
+- DEXetrity - eschiva caractere [aparare]
+- FURy - energie 
+- RESistance - rezistenta 
+- SPRirit - spirit pentru vampir
+- Adrenaline
+- Rage 
+- Endurance
+- WillPower
+- Knowledge
