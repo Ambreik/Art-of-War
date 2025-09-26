@@ -1,0 +1,24 @@
+	Here are 2 types of Stones. First when you are here , are 4 stones.
+- 3 Aqua Stone - respawn 5 minutes
+- 1 Fire Stone - respawn 10 minute.
+
+Aqua Stone Drop
+- helmet
+- earring
+- necklaces
+- shoes
+- Ancient Parchment
+- Passion Flower
+- figs
+
+Fire Stone Drop
+- figs
+- armour
+- weapon
+- combat gloves
+- combat shoulders
+- belt 
+- Infused Power Core
+- Mystic Binding Agent
+
+	If someone is there, you must wait until the area its clear. This is a similar map where the dragon appears to drop the soul of PvP Mob.
