@@ -1,0 +1,29 @@
+"Good day, how may I be of service?"
+Ask I want more information on how I can train my pet.
+Pets acquire various dominant characteristics through behavioral training exercises. While this evolution training is not an exact science, we here at the Zaishen Menagerie have perfected our techniques to an art form. Our trainers research and study extensively for years and can guarantee the desired characteristics, whereas most adventurers can only hope to stumble on them accidentally.
+Ask How can I train my pet to have elder characteristics?
+Our services are at your disposal. But if you wish to attempt it yourself, elder characteristics occur in pets which have had well-rounded training, neither significantly aggressive nor passive. You can achieve an elder evolution by keeping a balance between aggressive actions and passive actions.
+Ask How can I train my pet to have playful characteristics?
+Our services are at your disposal. But if you wish to do your own training, playful characteristics occur in pets that receive a majority of passive actions during early training. A pet with a significant degree of passivity when reaching level 12 will become playful.
+Ask How can I train my pet to have aggressive characteristics?
+Our services are at your disposal. But if you wish to attempt this training, aggressive characteristics occur in pets that receive a majority of aggressive actions during early training. A pet with significant degree of aggression when reaching level 12 will acquire the aggressive evolution.
+Ask How can I train my pet to have hearty characteristics?
+You're not hiring our services? Well, you should know the hearty pet is the most passive of evolutions. To train up a hearty pet, use mostly passive actions so the pet feels extremely passive upon reaching level 15.
+Ask How can I train my pet to have dire characteristics?
+You're not hiring our services? If you understand dire pets are the most aggressive of evolutions and require the pet to be extremely aggressive upon reaching level 15, then you realize to train a dire pet, you'd use mostly aggressive actions during training.
+Ask Let's start over. I'm bored with this topic.
+Ask I hear there are different characteristics you can train into an animal.
+What characteristics would you like to know about?
+Ask What are elder characteristics?
+The elder evolution is your average class of pet. Proportional to its size, a level 20 elder pet is no more powerful than any ordinary level 5 pet. Elder is the baseline against which we measure other evolutions. It is the "vanilla" of the pet evolutions. Elder pets average 17-29 damage per hit and have a base health of 480 at level 20.
+Ask What are playful characteristics?
+The playful evolution averages 17-27 damage per hit and has a base health of 510 at level 20. That's a little more health and a little less damage than a generic pet.
+Ask What are aggressive characteristics?
+The aggressive evolution averages 18-30 damage per hit and has a base health of 450 at level 20. That's a little less health but a little more damage than a generic pet.
+Ask What are hearty characteristics?
+The hearty evolution average 15-25 damage per hit and has a base health of 540 at level 20. That's quite a bit more health but less damage than an elder pet.
+Ask What are dire characteristics?
+The dire evolution averages 20-32 damage per hit and has a base health of 420 at level 20. That's quite a bit less health but more damage than an elder pet.
+Ask Let's start over, I'm bored with this topic.
+
+http://wiki.guildwars.com/wiki/Wynn
