@@ -1,0 +1,11 @@
+			Sub-Chapter 5: The Fall of Windstorm
+
+After rallying their forces in Aarong Forest, Pindar and his army returned to Highland with renewed determination. Their target was **Windstorm**, the strategically placed stronghold they had established but were forced to abandon during their initial advance. Set against a mountainside, Windstorm represented their hope of controlling Highland and pushing deeper into the Frozen Territory. However, upon their return, they found it heavily fortified by the God of Wind’s minions, with the fearsome **Tempest Marauders**—elite, wind-wielding warriors—patrolling the walls.
+
+The assault on Windstorm began under cover of darkness, but this time, the knights faced a formidable new enemy, the **Howling Gale**, a monstrous wind elemental bound by the God of Wind to guard the stronghold. The Howling Gale whipped up vicious, frigid winds, scattering the knights' formations and threatening to rip apart any who dared approach the gates. Pindar, undeterred, devised a plan: he assigned Commander Roderic to lead a contingent through the western passage of Windstorm to draw the Howling Gale’s attention while a second group infiltrated through the weaker eastern side, cutting down the Marauders within.
+
+The siege wore on as both sides endured heavy casualties. The Howling Gale devastated Pindar’s forces, and even Roderic found himself struggling against the creature’s relentless fury. To counter the winds, Pindar ordered the mages to unleash spells that could absorb and disrupt the elemental’s power. With **Arcus**, a skilled battlemage specializing in fire and lightning, leading the spellcasters, the knights succeeded in weakening the Howling Gale just enough to close in and destroy it.
+
+Though the Howling Gale was defeated, the battle had taken its toll. Despite successfully reclaiming Windstorm, the knights suffered staggering losses. The walls of the stronghold were littered with fallen soldiers, and resources were dwindling. Realizing they couldn’t hold the stronghold without reinforcement, Pindar reluctantly ordered a retreat to Aarong Forest, where he hoped to regroup, resupply, and fortify their plans for Highland’s conquest.
+
+---

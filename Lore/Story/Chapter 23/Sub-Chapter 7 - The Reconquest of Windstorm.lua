@@ -1,0 +1,15 @@
+			Sub-Chapter 7: The Reconquest of Windstorm
+
+With fresh strategies and reinforced morale, Pindar’s forces, accompanied by Aric's knights, advanced back to Highland. This time, the approach to Windstorm was different. Instead of a direct, concentrated assault, Sylas led the two factions in a pincer formation, surrounding the stronghold from multiple fronts. Pindar’s force would strike from the western hills, while Aric’s knights would take the eastern approach, where the terrain’s steep ridges provided advantageous cover for flanking maneuvers.
+
+The area surrounding Windstorm was littered with icy ambush points held by White Walkers and the **Tempest Marauders**—elite warriors of the God of Wind, who manipulated the wind to create blinding, snow-filled vortices. These storms impeded visibility and broke formations, but Sylas and his commanders devised a strategy to counteract them. Pindar’s faction would clear and hold several smaller battlefields leading up to Windstorm, using beacon fires to guide and support Aric’s knights through the swirling snow.
+
+The first battlefield was **Frostwood Pass**, a narrow corridor lined with jagged ice. Here, Aric's knights advanced cautiously, using shields to deflect icy projectiles hurled by the Tempest Marauders. When visibility was momentarily lost, Pindar’s forces would light the beacons from the hilltops, providing a signal to navigate and regroup. The Tempest Marauders attempted to funnel the knights into ambush points, but with synchronized maneuvers, both factions cleared the pass and established a temporary encampment to treat the wounded.
+
+The next assault brought them to the **Galespire Plains**, where the armies encountered **Garnoth the Cyclone**, a towering beast with control over massive, swirling winds that separated the allies into isolated groups. Using pre-coordinated signals, Sylas directed small skirmishing squads to draw Garnoth's attention while elite archers launched volleys from the ridges, weakening the creature. When the final blow was struck, Pindar himself felled Garnoth, earning the cheers of both factions, united in their shared victory.
+
+Finally, at the foot of Windstorm itself, both factions faced the **Windcaller Warlocks**, powerful mages who channeled the wrath of the Wind God, unleashing torrents of ice and lightning. Aware of the Warlocks' devastating spells, Sylas coordinated a two-pronged attack. Pindar’s warriors pushed forward in a frontal assault while Aric’s knights launched a surprise flank from a concealed ridge, catching the Warlocks off guard and breaking their defensive line.
+
+As the battle raged, **General Vaelor**, the last commander of the God of Wind, emerged, wielding a mighty halberd that generated shockwaves with each strike. Pindar and Aric confronted him together, each one’s fighting style complementing the other. After a fierce clash, they defeated Vaelor, and the allied forces reclaimed Windstorm. In the aftermath, the battlefield became a powerful symbol of cooperation, as the knights and Pindar’s warriors raised flags bearing both factions’ emblems atop Windstorm’s walls.
+
+---
