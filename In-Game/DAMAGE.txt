@@ -1,0 +1,28 @@
+Cold damage - is an elemental damage type that is usually caused by; ice, water, frost, or other related sources. The majority of cold damage sources are found in the Elementalist's Water Magic line, though cold damage is also plentiful in Necromancer offensive skills, and also appears in several Air Magic and Wind Prayers spells. Within weapons, cold damage can be inflicted by; staves and wands with Water Magic, Curses and Death Magic attribute requirements. In addition, cold damage can also be inflicted by any martial weapon upgraded with an Icy prefix upgrade.
+Unlike some other games, cold damage has no inherent effects such as slowing or shattering foes on hit. However, many Water Magic spells are hexes that both inflict cold damage and snare a target.
+Cold damage is particularly effective against fire damage-based foes. Using cold damage against a Flame Djinn will substantially increase damage one would otherwise do. Contrarily, cold damage is less effective against icy or cold-based enemies such as Ice Imps.
+Generally within PvE, cold damage is uncommon, with most players opting to wield fire damage due to its nature to deal damage; although occasionally depending on the situation, using cold damage may be preferable. Within PvP, cold damage either commonly comes in the form of a side effect from utilizing Water Magic hexes to support allies via snaring foes, or preventing them from dealing damage. However, cold damage also occurs within some spikes - sometimes as the primary damage source.
+
+
+Earth damage - is an elemental damage type that is usually caused by earth, tremors, dust, or other related sources. The majority of earth damage sources are found in the Elementalist's Earth Magic line, though earth damage is also plentiful in Dervish Earth Prayers skills, and is inflicted by several Deadly Arts spells. Earth Magic wands and staves inflict Earth damage, as do Mallyx's Endurance and martial weapons with an Ebon upgrade component.
+Unlike in some games, earth damage has no inherent effects such as stunning on hit; however, earth damage is often seen in conjunction with knockdowns, blindness and weakness.
+Earth damage is less effective against "stony" enemies such as Desert Wurms.
+It is in a player's best interest to determine when to protect oneself against Earth damage, and when to wield it. Studying the makeup of PvE enemies in an explorable area or mission, or tweaking a PvP build to counter the metagame will likely involve the consideration of earth damage at some point.
+
+
+Fire damage is an elemental damage type that is usually caused by fire, flames, lava, or other related sources. The majority of skills that cause fire damage are found in the Fire Magic and Wilderness Survival lines. Fire damage is also inflicted by all Fire Magic caster weapons, nearly all Divine Favor caster weapons, martial weapons with a Fiery upgrade component, and the Hound of Balthazar.
+Unlike in some games, fire damage has no inherent effects such as burning on hit. However, fire damage is often used to trigger (or triggered off of) burning.
+Fire damage is particularly effective against plant-type monsters and many cold damage-based foes. Using fire damage against an Ice Golem will substantially increase damage one would otherwise do. Contrarily, fire damage is less effective against stony or fire-based enemies such as Burning Titans.
+Since fire damage is fairly common, it is in a player's best interest to determine when to protect oneself against it, and when to wield it. Studying the makeup of PvE enemies in an explorable area or mission, or tweaking a PvP build to counter the metagame will likely involve the consideration of fire damage at some point.
+
+
+Lightning damage is an elemental damage type that is caused by most Air Magic skills, Channeling Magic skills, wands and staves linked to the Air Magic, Channeling Magic and Spawning Power attributes and any martial weapon with a Shocking upgrade component.
+Although lightning damage has no inherent effects, many Air Magic skills have 25% armor penetration.
+Generally, Lightning damage skills tend to focus on dealing large damage to single targets, and feature no damage over time effects.
+In PvE, it is rare for one to be specifically requested to wield lightning damage, with most players opting for Fire damage to deal damage, however in some cases it is more effective to use lightning damage. Within PvP, lightning damage typically comes as a side effect from players wielding support skills such as Blinding Surge, however it is also present within some spikes, sometimes as the primary damage source.
+
+
+Any source of damage from these types will trigger effects that check for elemental damage.
+Elemental damage is mainly dealt by elementalists, since they specialize in taming and controlling the four elements. However, elemental damage sources come from a range of professions, and likewise, many professions have specific counters or bonuses against certain elemental attacks.
+Any damage from the four elemental sources counts as elemental damage, and thus a skill like Elemental Resistance will protect against all four sources, while one such as Mantra of Frost will only defend against cold damage. Ranger armor, for instance, has an inherent +30 armor rating against elemental damage, and thus are better defended in the face of elemental sources than other professions.
+There are no known sources of "pure" elemental damage without one of the four subtypes.
