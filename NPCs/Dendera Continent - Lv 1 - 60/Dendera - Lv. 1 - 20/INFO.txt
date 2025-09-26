@@ -1,0 +1,26 @@
+#### **New NPC Interaction Element**  
+
+- **Lightbright Shields and Silvershock Shields occasionally disagree** on military strategies or approaches to missions.  
+  - Lightbright Shields are **more flexible and strategic**, favoring **precision strikes**.  
+  - Silvershock Shields are **stubborn, duty-driven, and defensive**, preferring **strong fortifications and overwhelming force**.  
+  - Their differing views can sometimes lead to **tense exchanges, disputes, or faction-based quests**.  
+
+-------------
+
+
+		Reputation-based Merchant Shops
+
+	In addition to the regular stores, the "Market District" has specialized shops that can only be accessed by players who have gained a certain reputation level 
+with specific factions or NPCs. These shops are small and hidden away in different parts of the district. These merchants may offer rare and powerful items that 
+cannot be found elsewhere.
+
+1. The Hidden Vendor (Reputation or Gift-Based)
+	- Exterior : A small, inconspicuous door tucked in a dark alley. The merchant only appears if the player has gained a certain reputation with a faction or 
+received a special gift.
+	- Items Sold : Rare accessories, potions, and artifacts that can only be acquired through special means.
+
+2. The Lost Merchant (Reputation or Gift-Based)
+	- Exterior : This merchant runs a mysterious booth, covered in cloth, that only appears under certain weather conditions or after the player has completed a 
+specific quest.
+	- Items Sold : This merchant offers a limited stock of magical items and rare quest items, including things like unique rings, enchanted books, and special 
+materials.
