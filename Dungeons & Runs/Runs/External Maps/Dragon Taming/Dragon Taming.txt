@@ -1,0 +1,13 @@
+Dragon Taming
+- odata ce Dragonul Albastru din Camera de Cristal este omorat , aleatoriu unul din playeri sa dropeze si un bilet , care nu este negociabil.
+- acest bilet sa fie permisul pentru Imblanzitorul de Dragoni.
+- ai nevoie de minim lvl. 140 si acest bilet pe care Imblanzitorul de Dragoni ti-l va cere ca sa te poata duce catre taramul dragonilor.
+- odata ce ii vei da acceptul ca vrei sa intrii in acea mapa , si ai permisul , vei alege ce dragon vrei sa imblanzesti.
+				The Dragon
+Acest dragon este de 3 feluri:
+- cel pentru regatul Milgaard si dropeaza droll pentru playerii acestui regat.
+- cel pentru regatul Lithmose si dropeaza droll pentru playerii acestui regat.
+
+Acest droll nu este negociabil si nu are limita de timp.
+Sansa de a dropa aceste droll-uri este de 10% si poti accesa mapa de cate ori vrei , depinzand de biletele pe care le detii.
+*

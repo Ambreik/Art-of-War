@@ -1,0 +1,15 @@
+Nivelul 1
+Un mob, odata omorat sa dropeze un cufar si sa respawnze alt mob.fiecare mob sa dropeze cufar si sa respawneze alt mob.
+din 10 in 10 mobi (al10lea/20/etc) sa dropeze si un item.
+vor fi 50 de mobi.
+ai la dispozitie 15 minute sa omori toti mobii altfel te va da in desert.daca ai omorat toti mobii sa te urce la nivelul 2
+Nivelul 2
+un boss clasic , odata omorat sa dropeze cufarul lui , cufarul de mai sus si sa respawnze urmatorul boss
+vor fi 5 bosi.
+ai la dispozitie 30minute.daca nu ai omorat toti mobii sa te dea in desert.daca ai omorat in 30min sau mai putin sa te urce la nivelul 3
+Nivelul 3
+aici este fara limita de timp si apar fiecare boss in parte al 3wars.
+Info
+cand esti scos de la run sa iti dea ca reward bilet de intrare inapoi.
+cuferele care le dropeaza mobii sa dropeze iteme pt alchinist dar procent mic de drop
+cuferele bossilor clasici sa dropeze tot iteme pt alchimist
