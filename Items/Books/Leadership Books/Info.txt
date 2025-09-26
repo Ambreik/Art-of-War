@@ -1,0 +1,106 @@
+Leadership
+
+Allows you to give special powers to your Groupmember. For that knowledge you need lv. 90.
+Like the other skills the leadership is subdivided in:
+Level 1-20 (is trained with Book of Leadership [BL] ) 1 per day or if you use the Focus Reading you are able to read again another book.
+Level M1-M10 (is trained with Soul Stone of Leadership [SSL] ) 1 per hour or if you use the Focus Reading you are able to read again another book.
+Level G1-G10 (is trained with Special Soul Stone of Leadership [SSSL] ) 1 per 3 hours or if you use the Focus Reading you are able to read again another book.
+Level P
+
+The special powers
+
+On the different levels of leadership you'll get the option to give some special "positions" and with this a special power to your group member(s). 
+However it only works if your groupmember is close to the groupleader like it is on the exp-bonus. There is only one special "position" per group member and 
+only one special power in the whole group.
+Level 1-19
+
+If you managed your tenth BL you are allowed to set a group member (NOT YOURSELF!) to an attacker. 
+The group member at this stage receives more attack power if they are close to you.
+leadership	Set as attacker
+
+10	+23 AP
+11	+24 AP
+12	+25 AP
+13	+26 AP
+14	+28 AP
+15	+29 AP
+16	+30 AP
+17	+31 AP
+18	+32 AP
+19	+34 AP
+Level M1-M5
+
+If you have managed your twentieth BL, leadership will change to M1 and you receive 2 more options for your group. 
+Now you are allowed to give the special "position" "Set as berserker"(group member gets more attack speed) and "Set as melee" (groupmember gets more health).
+From now on SSL will work like an normal skill book and there remain the same reading progression between the levels.
+leadership	Set as attacker	Set as berserker	Set as melee
+
+M1	+40 AP	+3 AS	MaxHP +775
+M2	+41 AP	+3 AS	MaxHP +804
+M3	+42 AP	+3 AS	MaxHP +833
+M4	+43 AP	+3 AS	MaxHP +862
+M5	+44 AP	+3 AS	MaxHP +890
+Level M6-M10
+
+Within level M5 you get "Set as blocker". But at this time you can't give it to a group member until you have level M6. 
+This is a power which allows your group member to have longer duration with their spells. This length is not written down in the description of the power but 
+you can take a measure the increase manually.
+leadership	Set as attacker	Set as berserker	Set as melee	Set as blocker
+
+M6	+46 AP	+4 AS	MaxHP +920	Length of spell: +32
+M7	+47 AP	+4 AS	MaxHP +963	Length of spell: +33
+M8	+49 AP	+4 AS	MaxHP +1.007	Length of spell: +34
+M9	+51 AP	+4 AS	MaxHP +1.050	Length of spell: +36
+M10	+53 AP	+4 AS	MaxHP +1.094	Length of spell: +37
+Level G1-P
+
+From G1 and G6 on new powers will appear. One of them is "Set as defender". From level P onwards, 2 of your group members will be allowed to 
+have "Set as attacker". The powers "defender" and "wizzard" are bugged with G1. This means they're shown on a image with level G1 but you can't give them to a 
+group member.
+leadership	Set as attacker	Set as berserker	Set as melee	Set as blocker	Set as defender	Set as wizzard
+
+G1	+59 AP	+5 AS	MaxHP +1.239	Length of spell: +41	From P on	From G6 on
+G2	+61 AP	+5 AS	MaxHP +1.282	Length of spell: +43	From P on	From G6 on
+G3	+62 AP	+5 AS	MaxHP +1.326	Length of spell: +44	From P on	From G6 on
+G4	+64 AP	+5 AS	MaxHP +1.369	Length of spell: +45	From P on	From G6 on
+G5	+66 AP	+5 AS	MaxHP +1.413	Length of spell: +47	From P on	From G6 on
+G6	+68 AP	+5 AS	MaxHP +1.471	Length of spell: +49	From P on	MaxMP +613
+G7	+71 AP	+6 AS	MaxHP +1.529	Length of spell: +50	From P on	MaxSP +637
+G8	+73 AP	+6 AS	MaxHP +1.587	Length of spell: +52	From P on	MaxSP +661
+G9	+76 AP	+6 AS	MaxHP +1.645	Length of spell: +54	From P on	MaxSP +685
+G10	+79 AW	+6 AG	MaxHP +1.717	Length of spell: +56	From P on	MaxSP +715
+P	+85 AW	+7 AG	MaxHP +1.862	Length of spell: +61	Defence: +42	MaxSP +775
+Stages between Level
+Level	Required Soul Stone
+M1->M2	1
+M2->M3	1
+M3->M4	1
+M4->M5	1
+M5->M6	1
+M6->M7	1
+M7->M8	1
+M8->M9	1
+M9->M10	1
+M10->G1	2
+Level	Required Special Soul Stone 
+G1->G2	2
+G2->G3	2
+G3->G4	2
+G4->G5	2
+G5->G6	3
+G6->G7	3
+G7->G8	3
+G8->G9	4
+G9->G10	4
+G10->P	5
+
+
+Bonuses : 
+- attacker
+- berserker 
+- melee
+- blocker
+- defender
+- wizzard
+- teleport - teleport a player near to leader of the group.This skill need 1000 MP and time to re-use 5 second , this skill you are able to use when have 
+			 the Perfect Knowledge for Leadership.

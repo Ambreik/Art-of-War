@@ -1,0 +1,11 @@
+	LockPicking este o abilitate a caracterelor de a deschide cuferele care sunt incuiate.
+Pentru a invata aceasta abilitate este nevoie de a citi un set de carti.
+a. Lockpicking Book
+b. Master of LockPicking
+
+	LockPicking Book este cartea usuala care se citeste si este dropata in FarmMap sau in mapele de 130+.
+Are sansa de 40% de reusita si poate fi citita imediat dupa cea dinainte.
+	Master of LockPicking este o caret mai greu de inteles dar cu reusita de 70%.De obicei este citita dupa stadiul de Master catre stadiul de Perfect Master.
+Este dropata foarte rar in FarmMap dar mai des la bosii de peste lv 120.
+Pentru a citit aceasta carte este nevoie sa astepti o ora.
+	Are icon in fereastra de status si un panou pentru a putea fi descrisa mai bine.
