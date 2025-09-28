@@ -145,12 +145,7 @@ their presence.
 
 ---
 
-	Thanks — I’ll rewrite **Sections 5 & 6** completely, integrating your rank system, NPC roles, and the Guardian/Baron clarification (they are **PvP entities** only and must be treated specially as PvP-flagged noise sources). I’ll make these two sections detailed, self-contained, and ready to drop into the Global Noise System doc.
-
----
-
-	5) NPC & Monster Responses
-
+	5) NPC & Monster Responses (REVISED: Dungeon / Special-Monster Gating)
 	High-level model (states)
 	Every sentient world entity (NPC or monster) lives in one of these awareness states:
 
@@ -159,227 +154,145 @@ their presence.
 * Investigating — moves toward sound source; short-duration checks for visual confirmation.
 * Combat-Ready — has high suspicion (visual confirmation or strong noise); prepares for combat (arms up, calls others).
 * Aggro/Combat — engaged in fighting.
-	
+
 	Transitions are driven by the Global Noise System’s `noiseSum` checks, line-of-sight checks, and direct visual triggers.
 
----
+	IMPORTANT GATING PRINCIPLE
+- Open-world monsters : by default, monsters use the Aggro/Threat system (radius + threat list). They ignore Global Noise events unless explicitly flagged.
+- Dungeon & Run monsters : monsters spawned inside a dungeon/run region are noise-aware by default (they listen to Global Noise events in addition to radius aggro).
+- Special monsters : any monster flagged with `NoiseAware = true` in its template will react to Global Noise events regardless of location.
+- PvP-only entities (Guardians/Barons): their noise is flagged PvP-only (`ignorePVM = true`) and will not trigger PvE monsters or NPCs; it is cosmetic / player-
+notification only.
 
 	A — NPC responses (civilian & city NPCs)
-
-	Classification (examples & hearing behavior) :
+	Classification & hearing behavior:
 
 1. Tier 1 — Common Citizens / Villagers
-	* HearingRadius : \~10 m (tunables)
-	* AlertThreshold : High (react only to loud/explosive noises)
-	* Behavior on trigger : Panic/flee, call guards (if nearby), stop interactions; do not fight.
-	* Aftermath : May remain unavailable for services for `CITIZEN_FLEE_DURATION` (e.g., 30–90 s).
+	* HearingRadius : ~10 m (tunables)
+    * AlertThreshold : High (react only to loud/explosive noises)
+    * Behavior on trigger : Panic/flee, call guards (if nearby), stop interactions; do not fight.
+    * Aftermath : May remain unavailable for services for CITIZEN_FLEE_DURATION (e.g., 30–90 s).
 
 2. Tier 2 — Merchants / Profession NPCs / Quest Givers
-	* HearingRadius : \~12 m
-	* AlertThreshold : Medium–High (medium/loud noises)
-	* Behavior on trigger : Enter "Scared" state — hide, stop services, clutch goods, call for guards if persistent.
-	* Mechanics : If noise continues or a visual threat appears, they move to sheltered zones (stall, building) and unlock again after `MERCHANT_RECOVER_TIME` 
-	(e.g., 60–120 s).
-	* Gameplay effect : Loud/minor chaotic areas temporarily hinder player access to services — creates tactical consequences for noisy activity near hubs.
+    * HearingRadius : ~12 m
+    * AlertThreshold : Medium–High
+    * Behavior on trigger : Enter "Scared" state — hide, stop services, clutch goods, call for guards if persistent.
+    * Mechanics : If noise continues or a visual threat appears, they move to sheltered zones and recover after MERCHANT_RECOVER_TIME.
 
 3. Tier 3 — Guards / Militia
-	* HearingRadius : \~18 m
-	* AlertThreshold : Medium (detects sneaking breaks and medium noises)
-	* Behavior on trigger : Investigate; if they see the player or confirm threat, escalate to "Combat-Ready" and call reinforcements in a local radius.
-	* Alarm : Loud/explosive noises produce immediate alarm calls; guards spawn/route in waves depending on town alarm level.
+    * HearingRadius : ~18 m
+    * AlertThreshold : Medium
+    * Behavior on trigger : Investigate; if they see the player or confirm threat, escalate to "Combat-Ready" and call reinforcements.
+    * Alarm : Loud/explosive noises produce immediate alarm calls; guards spawn/route in waves depending on town alarm level.
 
-> Note about Guardians/Barons : they are not NPCs for PvM. They are PvP-summoned entities. Guardians/Barons may *emit* distinct vocal/noise effects (for player immersion) but these sounds are flagged PvP-only (`ignorePVM=true`) — they do not cause NPCs or monsters to react. Treat their noise as cosmetic for PvM; audible to players and PvP systems only.
-
----
+	Note about Guardians/Barons:
+- PvP entities only. Their ambient and combat noise is flagged `ignorePVM=true` so PvE NPCs and monsters do not react. These noises are audible to players and 
+affect PvP detection mechanics only.
 
 	B — Monster responses (Rank I → V)
-	Monsters are grouped into ranks (I–V). Noise affects them differently.
-
-	Shared mechanics (applies to all ranks) :
+	Shared mechanics (applies to all ranks):
 
 * Each monster has:
-	* `hearingRadius` (meters),
-	* `baseAlertThreshold` (noise units),
-	* `awareness` stat (modifies threshold),
-	* `investigateBehavior` (idle move speed, sends scout?),
-	* `fearability` (likelihood to flee).
-* Noise events within `hearingRadius` are attenuated by distance and environment, summed into `noiseSum` over a short window (e.g., 6s). If `noiseSum >= baseAlertThreshold → go Alerted`.
+    * `hearingRadius` (meters),
+    * `baseAlertThreshold` (noise units),
+    * `awareness` stat (modifies threshold),
+    * `investigateBehavior` (idle move speed, sends scout?),
+    * `fearability` (likelihood to flee).
+* Noise events within `hearingRadius` are attenuated by distance and environment, summed into `noiseSum` over a short window (e.g., 6s). If `noiseSum >= 
+baseAlertThreshold` → go Alerted.
+* Important gating : apply `noiseSum` only if (entity.isInDungeon == true) OR (entity.NoiseAware == true). Otherwise ignore noiseSum and use radius/threat only.
 
-	Rank-specific behavior & tunables (suggested default ranges)
+	Rank-specific behavior & tunables (suggested defaults):
 
 * Rank I — Trash / Weak Mobs
-	* `hearingRadius`: \~8–12 m
-	* `baseAlertThreshold`: high (e.g., 5–7) — requires loud noise to react
-	* Behavior : rarely react; do not fear; will not call others; usually only aggro on direct visual/attack contact.
-	* Use : filler mobs that are safe to farm if you avoid direct engagement.
+    * hearingRadius: ~8–12 m
+    * baseAlertThreshold: high (e.g., 5–7)
+    * Behavior : rarely react; do not fear; will not call others; only aggro on direct visual/attack contact.
 
 * Rank II — Smarter Packs
-	* `hearingRadius`: \~12–18 m
-	* `baseAlertThreshold`: medium (e.g., 3–5)
-	* Behavior : notice medium noises, investigate; may retreat if numerical disadvantage; will chase if they detect the player.
-	* Group behavior : simple pack logic — alert one may call nearby pack members (linked aggro propagation applies).
+    * hearingRadius: ~12–18 m
+    * baseAlertThreshold: medium (e.g., 3–5)
+    * Behavior : notice medium noises, investigate; may retreat if numerical disadvantage; may call pack.
 
-* Rank III — Leaders / Elite (small group leaders)
-	* `hearingRadius`: \~18–24 m
-	* `baseAlertThreshold`: low–medium (e.g., 2–4)
-	* Behavior : sensitive to soft and medium sounds; often send scouts or minions; use basic tactics (flank, call backup).
-	* Mechanic : when Alerted, they can change spawn patterns (move minions) and shift to Combat-Ready instead of immediate charge.
+* Rank III — Leaders / Elite
+    * hearingRadius: ~18–24 m
+    * baseAlertThreshold: low–medium (e.g., 2–4)
+    * Behavior : sensitive to soft/medium sounds; send scouts or minions; can escalate rapidly.
 
 * Rank IV — Special Monsters / Elite Bosses
-	* `hearingRadius`: \~24–30 m (or more depending on boss)
-	* `baseAlertThreshold`: low (e.g., 1–3)
-	* Behavior : detect most disturbances at long range; may preemptively move or trigger complex phase mechanics (traps, territorial buffs).
-	* Complex reaction : can prepare ambushes, call regional minions, or change arena (move environment).
+    * hearingRadius: ~24–30 m
+    * baseAlertThreshold: low (e.g., 1–3)
+    * Behavior : prepare ambushes, call regional minions, or trigger complex mechanics.
 
-* Rank V — World Bosses / Notorious Monsters
-	* `hearingRadius`: very large (30–80 m, tuned per boss)
-	* `baseAlertThreshold`: special rules (often awaken on ANY significant noise)
-	* Behavior : unique, scripted reactions — noise may wake, enrage, or teleport the boss. Usually tied to major events and heavily tuned.
+* Rank V — World Bosses / Notorious
+    * hearingRadius: very large (30–80 m)
+    * baseAlertThreshold: special rules (often awaken on ANY significant noise)
+    * Behavior : unique, scripted reactions; noise may wake/enrage.
 
-	Chain reactions (Linked Aggro integration)
+	Chain reactions (Linked Aggro integration):
+* When a monster becomes Alerted or enters Combat-Ready, it may emit an `alertWave` (propagation radius configurable). Nearby monsters perform probabilistic propagation checks to become Alerted — limited by hop cap and max alerted per source.
 
-* When a monster becomes Alerted or enters Combat-Ready, it emits an `alertWave` (propagation radius configurable, default \~20m). Nearby monsters perform 
-propagation checks (probabilistic) to become Alerted — limited by hop cap and max alerted per source to prevent runaway CPU/XP spikes.
+	Fear & morale:
+* Some NPCs and lower-rank monsters may flee if `fearability` threshold is reached. High-rank monsters (IV/V) generally do not flee; they call or retaliate.
 
-	Fear & morale
-* NPCs (Merchants) and some monster types may have `fearability`. If `fearability` triggered (by overwhelming noise or seeing large force), they flee for a time. 
-Monster ranks may have different morale: Rank II can flee, Rank III rarely flee, Rank IV/V will never flee but instead call or retaliate.
-
----
-
-	Example numeric tunables (starting values — all fully tunable)
-
-* `noiseMagnitude` scale: 1..10 (see Player noise table in Section 6)
+	Example numeric tunables:
+* noiseMagnitude scale: 1..10
 * NPC hearing radii: Citizens 10m; Merchants 12m; Guards 18m.
 * Monster hearing radii: Rank I 8–12m; Rank II 12–18m; Rank III 18–24m; Rank IV 24–30m; Rank V 30–80m.
-* baseAlertThreshold examples (lower = more sensitive): Rank I = 6, Rank II = 4, Rank III = 3, Rank IV = 2, Rank V = special.
-* AlertDuration = 20s (configurable per mob/NPC).
-* PropagationRadius = 20m; PropagationHopCap = 4; MaxAlertedPerSource = 10.
+* baseAlertThreshold examples: Rank I = 6, Rank II = 4, Rank III = 3, Rank IV = 2, Rank V = special.
+* AlertDuration = 20s; PropagationRadius = 20m; PropagationHopCap = 4; MaxAlertedPerSource = 10.
+
+	Special rules & exceptions:
+* Visual confirmation escalates immediately to Combat-Ready.
+* Magical sounds may bypass terrain rules if labeled `ignoreTerrain=true`.
+* Critical quest NPCs may have temporary `ignoreNoise` flags.
+
 
 ---
+	
+	6) Player Interaction with Noise (REVISED: integration & practical rules)
+	
+	This section maps player actions to noise magnitudes and gives practical rules for how noise affects gameplay in PvE and PvP contexts. All values are tunable 
+per-zone.
 
-	Special rules & exceptions
-
-* Visual confirmation (line-of-sight) immediately escalates to Combat-Ready regardless of noise.
-* Magical/arcane sounds may bypass terrain muffling (configurable `ignoreTerrain` flag).
-* Civilian NPC immunity window : some critical quest NPCs may temporarily ignore noise to avoid blocking progression (designer flag).
-* Guard alarm scaling : in big cities, extreme noise can queue Guardian reinforcement spawns — this is a separate city-defence system 
-(tied to game economy & balance) and must be gated to avoid abuse.
-
----
-
-	6) Player Interaction with Noise
-	This section describes how players create and interact with noise, and how that noise affects PvE/PvP gameplay. It maps player actions to noise magnitudes, 
-shows aggregation rules for groups, and lists counterplay options.
-
----
-
-	A — Player-generated noise mapping (suggested default magnitudes — scale 1..10)
-	Use these as defaults; make all values tunable per-zone:
-
-* Silent / Stealth
-	* Sneak step (inside Vegetation\_Camouflage): 0.2–0.5
-	* Quiet inspection/click: 0.5
-
-* Low / Walk
-	* Normal walk on soft ground: 1
-	* Walk on leaves / gravel: 1.5
-
-* Medium / Activity
-	* Run / jog: 2.5
-	* Quick sprint: 3–4
-	* Light tool usage (herb pick): 1–2
-	* Fishing cast (normal): 1.5
-
-* High / Combat & Heavy Work
-	* Melee strike (single): 3
-	* Spell cast (single, non-AoE): 3.5
-	* Mining strike (light): 2–3
-	* Mining heavy hit / collapse: 5–6
-	* Mount entry / dismount: 2
-
-* Loud / Area / Explosive
-	* AoE spells (non-explosive): 5
-	* Explosive/siege/large collapse: 8–10
-	* World chest opening (if loud): 4–6 (tunable by chest type)
-
-* PvP Entity sounds (Guardian/Baron)
-	* Roar/command (PvP-only): 6–8 (flagged PvP-only; monsters/NPCs ignore in PvM)
-
----
+	A — Player-generated noise mapping (default magnitudes 1..10)
+* Tier 0 — Silent: <1 — sneak steps in vegetation.
+* Tier 1 — Low: 1–2 — normal walk, light tool use.
+* Tier 2 — Medium: 3–4 — sprint, single melee hit, single spell cast.
+* Tier 3 — Loud: 5–7 — mining strike, AoE spells, mounted charge.
+* Tier 4 — Extreme: 8–10 — explosions, siege.
 
 	B — Aggregation & Group rules
+* The world is bucketed into spatial cells (e.g., 5m). For each cell, compute `noiseSum = Σ (sourceNoise * sourceModifiers * attenuation)` over ALERT_WINDOW 
+(e.g., 6s).
+* Party actions aggregate; clamp `noiseSum` per cell to `MAX_CELL_NOISE` and cap per-source contribution to avoid abuse.
 
-* Local noiseSum : the system buckets noise into spatial cells (e.g., 5m grid). For each bucket, `noiseSum = Σ (noiseMagnitude * sourceModifiers * distanceAttenuation)` over an `ALERT_WINDOW` (e.g., 6s).
-* Party effects : group actions aggregate — a party of five miners hitting a vein will create a combined noiseSum that is far larger than a single miner. This 
-increases linked aggro risk.
-* Stacking & capping : to prevent runaway values, clamp `noiseSum` per cell to `MAX_CELL_NOISE` and cap contributions per source per second.
-
----
-
-	— Interaction with Stealth & Environmental Mechanics
-
-* Vegetation\_Camouflage reduces the player’s noise magnitude by `CAMO_NOISE_MULTIPLIER` (e.g., ×0.2). That makes stealthy actions far less likely to trigger linked
-aggro.
-* Strong\_Winds can increase ambient noise (masking small sounds) or reduce stealth effectiveness depending on config: `windNoiseMultiplier` modifies noise 
-propagation locally.
-* Underwater\_Currents : underwater sounds propagate differently — swimming thrash may be muted or amplified by currents; explosions are amplified underwater 
-(higher effective radius).
-
----
+	C — Interaction with Stealth & Environmental Mechanics
+* Vegetation_Camouflage reduces player noise by `CAMO_NOISE_MULTIPLIER`.
+* Weather and terrain modifiers apply as documented in Section 4.
+* Magical silence zones can suppress noise events (set `muteZone=true` for the area).
 
 	D — Professions & Special Actions
+* Mining, archaeology, and heavy interactions produce higher noise and may trigger linked aggro specifically in dungeon or zone contexts per Section 5.
 
-* Mining : heavy hits produce high noise and often cause rock-falls (game-design option). Mining is an intentional noise source — great for emergent gameplay 
-(miners attract monsters). Consider longer respawn timers in dangerous zones to avoid camping.
-* Herbalism : harvesting usually generates low noise (low risk), but certain herbs (e.g., Shadowmoss) release poisonous spores with noise-like triggers 
-(local hazard).
-* Archaeology / Clicking Relics : interacting with ancient items may spawn `ARCHAEOLOGY_NOISE` events (medium–high magnitude) — this can awaken nearby monsters or 
-trigger latent alarms.
+	E — PvP-specific rules & Guardian/Baron
+* Guardians/Barons emit PvP-only noise (flagged `ignorePVM=true`) and do not trigger PvE NPCs or monsters. Their sounds remain audible to players and affect PvP 
+detection logic only.
 
----
+	F — Counterplay & tools
+* Stealth skills, silence consumables, decoys/bait and other mechanics are supported — they modify `sourceNoise` or generate fake noise events.
 
-	E — PvP-specific rules & Guardians/Barons
+	G — Example flows (short)
+1. Solo miner: mining hit (noise 5) in zone → near Rank II pack threshold → pack Alerted → propagation may pull leader.
+2. Stealth infiltration: group under camouflage reduces noise to safe levels; single sprint (noise 4) spikes cell and triggers merchants/guards.
+3. Dungeon: monsters are noise-aware by default — a single AoE may awaken multiple patrols.
 
-* Guardians/Barons produce PvP-only noise events (flagged). They do not trigger NPC/monster reactions in PvM. Their sounds are audible to players in range and may 
-be used to intimidate/communicate.
-* Player PvP stealth : player stealth over players is governed by same noiseSum logic, but with separate detection thresholds (PvP detection is usually tighter) and
-optional faction reveal rules.
-* Tactical noise use : players can purposely create distraction noise (throwable rocks, bait devices) to lure monsters or enemy players. These items emit noise 
-events with configurable magnitudes and cooldowns.
-
----
-
-	F — Counterplay & tools to manage noise
-
-* Stealth skills & boots : lower noise output or grant temporary immunity to linked aggro for specified actions.
-* Silence consumables / items : reduce noise magnitude of next N actions.
-* Decoys / Bait : place an object that emits a timed `noiseEvent` to draw monsters away.
-* Communication : in towns, pay small fee or bribe guard to lower local patrol sensitivity for a period (designer option).
-* Guild/Party coordination : coordinated pulls avoid overlapping noise sums; assign a single miner/harvester to prevent full group alarm.
-
----
-
-	G — Example flows
-
-1. Single player mining alone
-	* Heavy mining hit (noise 5) → within `hearingRadius` of Rank II packs (threshold 4) → pack becomes Alerted.If Alerted pack’s alertWave reaches Rank III leader,
-propagation may cause full pack to join.
-
-2. Party stealth infiltration near market
-   * Players in Vegetation\_Camouflage reduce step noise to 0.3 each → combined group noiseSum remains under Merchant/Guard thresholds → stealth succeeds. A single
-careless sprint (noise 4) will spike the cell noiseSum and trigger merchant Hide state and guard investigation.
-
-3. Guardian/Baron (PvP) arrival
-   * Guardian&Baron roars (PvP-only noise 8) — audible to players but flagged `ignorePVM` so no monsters react. Players hearing the roar may be alerted to incoming 
-PvP danger.
-
----
-
-	H — Tunables & analytics
-
-* Capture `noiseEvent` counts, average `noiseSum` per cell, `alertWavesTriggered`, `merchantHideIncidents`, `playerDeathsFromLinkedAggro`. Use these to tune 
-thresholds and node placements.
+	H — Implementation notes (practical)
+* For engine implementers:
+    1. Expose `entity.isInDungeon` boolean set by spawner or zone manager.
+    2. Expose `entity.NoiseAware` flag set in the monster template for special mobs.
+    3. GlobalNoiseSystem should, when broadcasting events, only call `entity:ProcessNoiseEvent(...)` if (entity.isInDungeon == true) OR (entity.NoiseAware == true) OR (entity.type is NPC/Guard/Animal).
+* This gating keeps open-world monster behavior unchanged (radius/threat), while enabling dungeon dynamics and special monsters to be noise-aware.
 
 ---
 
