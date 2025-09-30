@@ -1491,4 +1491,38 @@ decisions, and combat behavior.
 		* Undead mobs in a “Dark Harvest” event drop rare crafting materials.
 	* These modifiers can be layered on top of regular AI behavior and loot tables.
 
+4. Rage Mode / Desperation Phase 
+	
+	Trigger Conditions:
+* Monster HP falls below a configured threshold (e.g. 20–35%)
+* In group encounters: leader death or scripted phase triggers
+* Time-based escalation for prolonged fights
+
+	Effects when Rage Mode is active:
+* Increased attack speed (+10–50%) and damage multiplier (×1.2 to ×2 or higher)
+* Higher critical/penetration chance, reduced cooldowns
+* Resistance buffs: temporary immunity or increased resistance to crowd-control
+* Life leech / regeneration: monster heals for a portion of damage dealt
+* Behavior shift: more aggressive target switching, reduced or disabled retreat behavior
+* Extended leash: may pursue players beyond usual chase radius
+* Visual/audio cues: glowing aura, roars, ability telegraphs, change in monster appearance or animations
+
+	Group Rage Mode Behavior:
+* When leader enters Rage Mode, allied group members may also receive buffs or enter Rage
+* Threat tables may be recalculated so monsters re-prioritize highest-threat players
+* Reinforcements may be triggered or group’s aggression escalates
+
+	Balancing & Counterplay:
+* Rage Mode is time-limited (e.g. 20–60 seconds)  
+* Optional “rage energy” cost limits duration  
+* Only monsters flagged with hasRageMode = true should use this mechanic  
+* Monsters may exit Rage Mode or be suppressed if strong player control is applied  
+
+	Sample Configuration (for reference):
+* RageTriggerHP = 0.25  -- trigger when HP ≤ 25%
+* RageDuration = 45     -- lasts 45 seconds  
+* DamageMultiplier = 1.8
+* AttackSpeedBonus = 0.3  -- +30% speed  
+* CCResistanceBonus = 0.2 -- +20% resistance 
+
 ---
