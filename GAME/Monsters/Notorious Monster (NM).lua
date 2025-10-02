@@ -3,7 +3,7 @@
 	1. Introduction to Notorious Monsters
 - Definition :  
 	Notorious Monsters (NMs) are unique, highly challenging bosses that feature complex combat mechanics and require advanced strategies to defeat. 
-These creatures are often located in key areas of the game world, such as special zones, dungeons, or instances. NMs typically act as end-game 
+	These creatures are often located in key areas of the game world, such as special zones, dungeons, or instances. NMs typically act as end-game 
 encounters or final bosses, with each one being tailored with unique abilities, stages, and combat tactics that change as the battle progresses.
   
 - General Characteristics :  
@@ -30,20 +30,19 @@ adapt their strategies, making each phase feel fresh and more difficult than the
 	3. Combat Mechanics
 - Elemental Affinity :  
 	NMs are often associated with a particular elemental theme that influences their abilities and attacks. For example, a fire-based NM might 
-periodically cast AoE fire attacks or summon fire-based minions. These elemental aspects require players to equip themselves accordingly with 
-defensive items or abilities tailored to the NM's specific weaknesses.
+periodically cast AoE fire attacks or summon fire-based minions. These elemental aspects require players to equip themselves accordingly with defensive items or 
+abilities tailored to the NM's specific weaknesses.
 
 - Targeted Attacks :  
 	Many NMs have the ability to target specific players based on their role, positioning, or vulnerability. For instance, certain NMs may prioritize 
-classes with buffing abilities (like Shamans), or ranged classes like Ninjas. This encourages team coordination and strategic positioning during the 
+classes with buffing abilities (like Shamans or Sorcerers), or ranged classes like Ninjas. This encourages team coordination and strategic positioning during the 
 fight.
 
 - Phase-based Behavior Change :  
 	Each phase (HP Bar) of the NM encounter features unique behavior changes, making the fight dynamic:
-	- Berserker Mode : When the NM is near a phase transition, it might enter a berserker mode, significantly increasing its damage output for a short
-period.
-	- Summoning Minions : Some NMs summon additional monsters to assist them as their HP decreases, forcing players to split focus between the NM and 
-the new threats.
+	- Berserker Mode : When the NM is near a phase transition, it might enter a berserker mode, significantly increasing its damage output for a short period.
+	- Summoning Minions : Some NMs summon additional monsters to assist them as their HP decreases, forcing players to split focus between the NM and the new 
+threats.
 	- Skill Charging : Some NMs have abilities that require charging, during which time they will gather energy for a devastating attack. Players must
 interrupt or avoid these attacks through coordinated group effort.
 
