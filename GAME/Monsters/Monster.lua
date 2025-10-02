@@ -214,6 +214,92 @@ region/continent progression affects their stats and behavior.
 
 ---
 
+		Core Attributes, Attack Types, and Status Mechanics
+
+	1. Core Attributes
+
+	Health & Resources
+
+* HP (Hit Points) : Total health pool. Higher HP indicates more tankiness.
+* MP / Mana / Energy / Rage : Resource pools used for abilities; Rage is used for Berserk, Vampiric, or other mechanics.
+* Health Regeneration (HP Regen) : Base HP recovery over time. Modified by monster type:
+	* God, Vampiric, Invoker : Increased HP regen during specific mechanics.
+	* Melee / Ranged : Chance to regain a small amount of HP on successful hit.
+
+	Offensive Attributes
+
+* Attack Power / Damage : Base physical damage.
+* Attack Speed : Determines frequency of attacks.
+* Critical Strike Chance : Chance to deal amplified damage per hit.
+* Damage Type Specialization : Some monsters deal physical, elemental, or magical damage.
+
+	Defensive Attributes
+
+* Armor : Reduces incoming physical damage.
+* Evasion / Dodge : Chance to avoid attacks.
+* Resistance : Reduces elemental or magical damage: Earth, Fire, Water, Wind, Holy, Shadow.
+* Damage Reflection : Returns a portion of damage to attacker.
+* Damage Block / Mitigation : Reduces specific types of damage (e.g., Crushing blows).
+
+	Mobility
+
+* Movement Speed : Determines travel speed.
+* Chase / Leash Radius : Maximum distance a monster will pursue a target before returning to spawn.
+
+---
+
+	2. Attack Types
+
+* Area of Effect (AoE) : Hits multiple targets within a radius.
+* Armor Penetration : Ignores part/all of target’s armor.
+* Combo Point : Builds stacks of damage or debuff effects (Boss/WB/NM/Skull).
+* Crowd Control (CC) : Stuns, fears, roots, slows, or disables players temporarily.
+* Drain : Reduces HP, Mana, Energy, or Rage and restores monster resources.
+* Reflect : Returns damage to the attacker.
+* Spell Hit / Cast : Magic-based attacks or abilities.
+* Tick Damage : Continuous damage over time (DoT), often elemental or poison.
+
+	Types of Damage
+
+* Burst Damage : Instant high damage.
+* Critical Strike : Amplified damage per hit.
+* Crushing Blow : Heavy attacks that bypass partial defenses.
+* Damage over Time (DoT) : Continuous damage.
+* Direct Damage : Standard attacks.
+* Fall Damage : Environmental damage from heights.
+* Fatigue Damage : Reduces stamina or energy.
+* Glancing Blow : Reduced damage attacks.
+* Multistrike : Rapid multiple hits.
+* Spell Penetration : Ignores part of magical resistance.
+* White Damage : Standard, unmodified attack.
+
+---
+
+	3. Status Mechanics
+
+	Common Mechanics
+
+* Rage Mode : Certain monsters (Boss, WB, Skull) gain increased attack/damage output when HP drops below a threshold.
+* Dormant / Ambush States : Monsters lie dormant or hide under certain conditions (e.g., Night Monster Mechanics), activating when players approach.
+* Buff / Debuff Effects : Monsters can apply effects altering player or self stats.
+* Passive Regeneration / Life Steal : Vampiric or God-type monsters regain HP or resources per hit or over time.
+* Threat Generation : Monsters prioritize targets differently based on aggro, role, or damage.
+
+	Environmental Mechanics
+
+* Terrain Interaction : Fire, water, wind, or shadow attacks may interact with environment.
+* Weather / Time Mechanics : Certain monsters gain bonuses or altered behavior at night or during events.
+* Special Triggers : Invocations, summoning, or unique abilities triggered by player actions.
+
+---
+
+	4. Integration Notes
+
+* Serves as foundation for all monster-related files: Monster Groups, Rare, Elite, Boss, Skull, World Boss, Night Monster Mechanics.
+* Each monster may have multiple types or mechanics, enabling modular combinations for diversity and complex encounters.
+
+---
+
 		Perception Mechanics
 
 	Monsters in World Game rely on multiple perception systems to detect, track, and react to players, NPCs, and environmental stimuli. This section outlines **how 
