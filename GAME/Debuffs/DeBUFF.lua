@@ -15,11 +15,66 @@
 		- Temporarily slows down movement by 20% until the spectral monster is killed.  
 		- Weakens player's stats by 15% for the same duration.  
 
+- "Shatter Will"
+	- Description : A powerful mental debuff that fractures the target’s resolve, leaving them vulnerable to fear and control effects. It weakens the mind’s 
+resistance to terror and domination magic, making the victim’s defenses collapse under intense psychological pressure.
+	- Triggered by : High-tier monsters and bosses (e.g., Skull-type, God-type, Nightmare-class creatures).
+	- Effect : 
+		- Reduces target’s Mental Resistance by 20%.
+		- Increases Fear Vulnerability by 30%.
+		- Slightly reduces Focus regeneration rate (casting interruption more likely).
+	- Duration : 10 seconds
+	- Countered by :
+		- Mental Ward potion
+		- "Courage Aura" (Defender/Paladin self-buff)
+		- "Bravery Charm" item
+	- Stacking : Does not stack with other mental resistance debuffs.
+	- Synergy : Combines effectively with "Fear", "Panic Mode", and "Terror Pulse" effects — extending their duration or amplifying their strength.
+	- UI : Displays a cracked purple mask icon on the debuff bar; pulse animation when Fear vulnerability is active.
+	- Flavor : > "Your courage shatters… and the darkness whispers louder"
+	
+- "Mind Fracture"
+	- Description : A psychic debuff that tears at the victim’s mental focus, shattering concentration and weakening magical defenses. Victims experience distorted 
+perception, delayed reactions, and reduced resistance to mind-based or elemental effects.
+	- Triggered by : Boss-class or higher monsters (Skull, World Boss, Ancient Entities). Often cast by caster-type or psychic entities.
+	- Effect : 
+		- Reduces Magic Resistance by 10–25%.
+		- Increases damage received from Mind, Shadow, and Arcane attacks.
+		- Slightly increases ability cooldown time (mental disruption).
+		- May cause short confusion or casting interruption when reapplied rapidly.
+	- Duration : 8–12 seconds (depending on monster rank).
+	- Countered by :
+		- "Clarity Potion" or items that restore focus.
+		- Buffs or abilities that grant temporary Mind Resistance or Anti-Magic Shield.
+	- Stacking : Can stack up to 2 times, increasing Magic Damage taken per stack.
+	- Synergy :
+		- Combines with "Shatter Will" (if active) to double resistance reduction.
+		- Can enhance other debuffs like "Fear" or "Silence", extending their duration by 1 second.
+	- UI : A pulsating purple brain icon appears under the debuff bar, with a faint echo sound every few seconds.
+	- Flavor : > "Your thoughts splinter… your will bends. The echo of your mind screams louder than your voice."
+
 ---
 
 		Debuffs Applied by Bosses  
-*(No debuffs listed yet — add details as needed.)*  
 
+- "Shatter Will"
+	- Description : A powerful mental debuff that fractures the target’s resolve, leaving them vulnerable to fear and control effects. It weakens the mind’s 
+resistance to terror and domination magic, making the victim’s defenses collapse under intense psychological pressure.
+	- Triggered by : High-tier monsters and bosses (e.g., Skull-type, God-type, Nightmare-class creatures).
+	- Effect : 
+		- Reduces target’s Mental Resistance by 20%.
+		- Increases Fear Vulnerability by 30%.
+		- Slightly reduces Focus regeneration rate (casting interruption more likely).
+	- Duration : 10 seconds
+	- Countered by :
+		- Mental Ward potion
+		- "Courage Aura" (Defender/Paladin self-buff)
+		- "Bravery Charm" item
+	- Stacking : Does not stack with other mental resistance debuffs.
+	- Synergy : Combines effectively with "Fear", "Panic Mode", and "Terror Pulse" effects — extending their duration or amplifying their strength.
+	- UI : Displays a cracked purple mask icon on the debuff bar; pulse animation when Fear vulnerability is active.
+	- Flavor : > "Your courage shatters… and the darkness whispers louder."
+	
 ---
 
 		Debuffs Applied by Environment  
@@ -79,14 +134,14 @@
 	- Effect : +20% bribe cost for next attempt. Stacks up to 3 times.
 	- Duration : 15 minutes.
 	- UI : Yes.
-	- Flavor : “Word spreads fast: you’re running out of coin.”
+	- Flavor : "Word spreads fast: you’re running out of coin."
 	
 - "Marked by the Pack"
 	- Description : Unsuccessful bribing a NPC, in Zonen continent.
 	- Effect : Guards are more suspicious → detection radius increased by 25%.
 	- Duration : 20 minutes.
 	- UI : Yes.
-	- Flavor : “You’ve been pointed out as the shady one.”
+	- Flavor : "You’ve been pointed out as the shady one."
 
 ---
 
@@ -95,7 +150,7 @@
 	- Effect : -10% lawful reputation gain, +10% outlaw reputation gain.
 	- Duration : 1 hour (city-wide).
 	- UI : Yes.
-	- Flavor : “The streets whisper your name alongside dirty coins.”
+	- Flavor : "The streets whisper your name alongside dirty coins"
 
 ---
 
@@ -105,7 +160,7 @@
 	- Effect : NPC alerts guards immediately, spawning an elite patrol.
 	- Duration : Instant event (no buff/debuff duration).
 	- UI : Yes.
-	- Flavor : “Your coin bought you nothing but betrayal.”
+	- Flavor : "Your coin bought you nothing but betrayal"
 
 ---
 
@@ -114,7 +169,7 @@
 	- Effect : Costs for all players in the city increase by 10–50% as corruption rises.
 	- Duration : Persists until players complete world events (anti-corruption quests).
 	- UI : Yes, for all players who are already in that location.
-	- Flavor : “The whole city reeks of bribes — and everyone wants their cut.”
+	- Flavor : "The whole city reeks of bribes — and everyone wants their cut"
 	
 ---
 
