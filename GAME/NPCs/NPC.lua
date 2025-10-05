@@ -56,6 +56,7 @@ Grade. Conversely, killing enemy NPCs may increase "Reputation" and "PvP Ranking
 3. Trainers : 
    - Role : Help players develop skills by teaching new abilities or enhancing existing ones. Often tied to specific regions.
    - Rank : Usually "Rank IV", offering specialized training and quests.
+   - Types : race, Class trainers which help in developing new skills at certain levels (similar with Wow trainers) or Profession Trainers which provide and help players with informations, tools and development in the profession chosen. Also those trainers can be SHOP NPCs and sell profession stuff.
 
 4. Store Managers : 
    - Role : Manage in-game stores where players can buy or sell items.
@@ -109,7 +110,7 @@ rewards or abilities.
 
 - Environment Awareness :  
 	Certain NPCs react to environmental conditions. For example, NPCs in regions like "Frozen Territory" or "Aarong Forest" may display unique behaviors in response
-to storms or volcanic eruptions.
+to storms.
 
 ---
 
@@ -208,4 +209,5 @@ a special summining item already discussed.
 - NPC Factions : NPCs can be grouped into factions, and their relationships could dynamically change based on the player’s actions. For example, a "Knight Guard" 
 faction may become hostile to a player who aids the "Outlaws".
 - Dynamic NPC Schedules : NPCs may operate on dynamic schedules, meaning they are only available at certain times of the day or during certain weather conditions. 
+
 This could create new types of interactions and quests based on time and environment.
