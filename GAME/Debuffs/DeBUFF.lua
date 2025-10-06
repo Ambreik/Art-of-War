@@ -143,6 +143,22 @@ resistance to terror and domination magic, making the victim’s defenses collap
 	- UI : Yes.
 	- Flavor : "You’ve been pointed out as the shady one."
 
+- "NPC Aggression Penalty"
+	- Description : Applied when a player kills a Neutral or Friendly NPC.
+	- Effects :
+		- Reduced experience gain for a set duration.
+		- Vendors may provide fewer goods or worse prices.
+		- Quest givers may temporarily disable quests or interrupt main storyline progression.
+	- Scaling :
+		- Minor NPCs (Rank I) → small XP penalty.
+		- Mid-tier NPCs (Rank III) → moderate XP loss, vendor/quest impact.
+		- High-tier NPCs (Rank V / Legendary) → severe penalties, long duration, potential bounty triggers.
+	- Duration : Configurable (e.g., 30 minutes to 24 hours).
+	- Stacking : Multiple kills may increase severity or duration.
+	- Faction-Specific Modifiers : Killing NPCs of your own faction results in stronger debuff effects.
+	- Notification : Players are informed when the debuff is applied.
+	- UI : Yes.
+	
 ---
 
 - "Rumored Corruptor"
