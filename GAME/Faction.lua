@@ -9,22 +9,22 @@ reputation systems, and PvP dynamics.
 		Major Factions
 
 1. "Knights Faction" (Dendera)
-   - Capital : Grand Dendera Citadel (Western World Map)
+   - Capital : Dravenhold (Western World Map)
    - Race Alignment : Humans, Vampires
-   - Description : A noble, honor-driven faction focused on order, protection, and combat prowess. Their main territory is located in the west of the 
-World Map, and their primary city is Grand Dendera Citadel.
+   - Description : A noble, honor-driven faction focused on order, protection, and combat prowess. Their main territory is located in the west of the World Map, and
+their primary city is Dravenhold.
 
 2. "Pindars Faction" (Zonen)
-   - Capital : Zonen Capital (Eastern Map)
+   - Capital : Dreadhollow Fortress (Eastern Map)
    - Race Alignment : Humans, Werewolves
-   - Description : A faction devoted to magic, diplomacy, and nature. They focus on balance, magical knowledge, and nurturing the land. Their 
-stronghold is the Zonen Capital on the eastern side of the World Map.
+   - Description : A faction devoted to magic, diplomacy, and nature. They focus on balance, magical knowledge, and nurturing the land. Their stronghold is the 
+Dreadhollow Fortress on the eastern side of the World Map.
 
 3. "Outlaws Faction" (Alaban)
    - Capital : Hidden area known as "Abalan"
    - Race Alignment : Humans, Vampires, Werewolves
-   - Description : A faction for those who have betrayed their main allegiance. Outlaws are known for their secrecy, outlawed activities, and 
-rebellion against the established factions.
+   - Description : A faction for those who have betrayed their main allegiance. Outlaws are known for their secrecy, outlawed activities, and rebellion against the 
+established factions.
 
 ---
 
