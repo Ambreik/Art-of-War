@@ -88,7 +88,7 @@
 
 ---
 
-		Alucard (Shadow of Death)
+		Alucard (Shadow of Death - Vampire King)
 **Appearance:** Alucard is an enigmatic figure, cloaked in shadows. His pale skin and piercing red eyes contrast sharply with his dark attire. His presence is both alluring and unsettling, evoking a sense of mystery.
 
 **Clothing:** He wears a flowing black robe adorned with silver symbols that seem to shift and change in the light. The robe is long, hiding his legs, making him appear more spectral than corporeal.
@@ -105,5 +105,6 @@
 **Clothing:** She wears lightweight armor that allows for mobility, adorned with shells and sea motifs. Her attire is often a blend of blues and greens, symbolizing her connection to the ocean.
 
 **Personality:** Nimba is fiercely independent and confident, unafraid to speak her mind. She embodies the spirit of the sea—unpredictable yet powerful. Nimba is a natural leader, rallying her troops with her charisma.
+
 
 **Connection:** Raised
