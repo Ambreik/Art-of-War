@@ -1,163 +1,237 @@
-			Faction
-
-	Factions Overview : In "World Game", factions are groups of allies based on racial, ideological, or practical alliances. Players can choose to 
-belong to one of the major factions and can also affiliate with various minor factions across the game world. The factions influence quests, NPCs, 
-reputation systems, and PvP dynamics.
+			Faction 
 
 ---
 
-		Major Factions
+## **Section I: Major Factions (Player-Aligned)**
 
-1. "Knights Faction" (Dendera)
-   - Capital : Dravenhold (Western World Map)
-   - Race Alignment : Humans, Vampires
-   - Description : A noble, honor-driven faction focused on order, protection, and combat prowess. Their main territory is located in the west of the World Map, and
-their primary city is Dravenhold.
+### **1. Dendera (Knights Faction)**
 
-2. "Pindars Faction" (Zonen)
-   - Capital : Dreadhollow Fortress (Eastern Map)
-   - Race Alignment : Humans, Werewolves
-   - Description : A faction devoted to magic, diplomacy, and nature. They focus on balance, magical knowledge, and nurturing the land. Their stronghold is the 
-Dreadhollow Fortress on the eastern side of the World Map.
+* **Races:** Humans and Vampires
+* **Faction Type:** Knight Faction — comparable to “Alliance” conceptually.
+* **Description:** A noble, structured order of humans and vampires bound by codes of honor and law. They uphold civilization, valor, and protection of the realm.
+* **Key Locations:**
 
-3. "Outlaws Faction" (Alaban)
-   - Capital : Hidden area known as "Abalan"
-   - Race Alignment : Humans, Vampires, Werewolves
-   - Description : A faction for those who have betrayed their main allegiance. Outlaws are known for their secrecy, outlawed activities, and rebellion against the 
-established factions.
+  * **Capital City:** Dravenhold
+  * **Region of Origin:** Continent of Dendera
+  * **Vampire Homeland:** Forest of Trevale — origin of vampire race and stronghold of their NPC kin.
+* **Gameplay Alignment:** Playable major faction for all Knight-aligned characters.
 
 ---
 
-		Minor Factions in Aarong Forest (Outland Territories)
+### **2. Zonen (Pindar Faction)**
 
-1. "Dwarven Faction"
-   - Location : Gandash Citadel (Friggel Wood)
-   - Description : An ancient group of Earthen Dwarves who have settled outside the "Ancient City of Sankis". They are master craftsmen and defenders of stone and metal.
+* **Races:** Humans and Werewolves
+* **Faction Type:** Pindar Faction — comparable to “Horde” conceptually.
+* **Description:** A coalition of fierce warriors and shapeshifters who value freedom, strength, and tribal unity. Their traditions revolve around honor in battle and survival of their kin.
+* **Key Locations:**
 
-2. "Gnomes"
-   - Location : Village of Zimmer
-   - Description : A group of resourceful and inventive gnomes skilled in engineering, magic, and building ingenious devices.
-
-3. "Trolls" (Cursed Horde)
-   - Location : Oak Village
-   - Description : A chaotic and primal group of trolls connected to dark forces. They are fierce, brutal, and often driven by survival instincts, with ties to curses or old rituals.
-
-4. "The Arcanum Scholarium"
-   - Location : Village of Afteria
-   - Description : A neutral faction of scholars of all professions, gathered here to conserve knowledge in a well-secured and fortified location.
-
-5. "Faity Elves"
-   - Location : Ruins of Marlick
-   - Description : A reclusive group of magical elves, known for their connection to nature and ancient spells that protect the balance of the world.
+  * **Capital City:** Dreadhollow Fortress
+  * **Region of Origin:** Continent of Zonen
+  * **Werewolf Homeland:** Arsshis Woods — birthplace of werewolves and center of their cultural and racial NPC presence.
+* **Gameplay Alignment:** Playable major faction for all Pindar-aligned characters.
 
 ---
 
-		Neutral Factions and Organizations
+### **3. Outlaws (Traitor Faction)**
 
-- "Undead Spirits" (Underworld Faction)
-   - Location : Eldergate - Underworld Realm
-   - Description : A bastion of NPCs, spirits, and humans that live here or have special missions in this realm.
+* **Description:** Outlaws are deserters and traitors from either Dendera or Zonen.
+* **Mechanics:**
 
-- "Fairy Spirits" (Fairy Land)
-   - Location : Fairy Land
-   - Description : A group of magical beings who guide mages and warlocks through their journey to gain knowledge and different abilities in the land of magical creatures.
+  * A player may originally belong to either Knight or Pindar faction.
+  * Upon becoming Outlaw, the player acts covertly under their original alignment, functioning as a double agent.
+  * Outlaws operate using their base faction (Knight or Pindar) while secretly following Outlaw directives.
+* **Faction Type:** Secret, dual-alignment faction.
 
-- "Outsiders"
-   - Location : Targas and Yewlands
-   - Description : Villagers from these two realms, special places for "Hunters" who serve as guides in the profession journey.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-- "Spectral NPCs"
-   - Location : Capital City
-   - Description : Ethereal beings present in the city for mysterious reasons, often tied to special world events or hidden questlines.
+## **Section II: Major Racial Factions (Playable Race Extensions)**
 
-- "Ghost Visitors"
-   - Location : Capital City
-   - Description : Wandering spirits that appear to interact with specific locations or individuals, offering cryptic hints or unique items.
+* When a player creates a character, they must select **either Knight (Dendera)** or **Pindar (Zonen)**.
+* Once chosen, players cannot create characters aligned with the opposite major faction (same system as WoW faction-lock).
 
-- "Librarians"
-   - Location : Great Library (Capital City)
-   - Description : Custodians of knowledge and scrolls, they offer lore, quests, and access to ancient tomes to aid players in their journey.
+**Racial Faction Extensions:**
 
-- "Military Faction"
-   - Location : Capital City
-   - Description : The organized defense force of the city, responsible for maintaining order and training adventurers in combat and survival techniques.
+* **Dendera (Knights):** Includes the **Vampire** racial faction, featuring playable vampire characters and NPCs in *Dravenhold* and *Forest of Trevale*.
+* **Zonen (Pindars):** Includes the **Werewolf** racial faction, featuring playable werewolf characters and NPCs in *Dreadhollow Fortress* and *Arsshis Woods*.
+* **Alaban (Outlaws):** Consists of characters who defected from Knights or Pindars; these players maintain partial allegiance to their origin faction while acting independently.
 
-- "Anglers Faction"
-   - Location : Various waterfronts in Capital City, including Freshwater Plunge and Fisherman’s Wharf.
-   - Description : A community of expert fishermen offering quests, unique tools, and fishing challenges for players exploring the profession.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-- "Smugglers Faction" (Dockworkers' Guild)
-   - Location : Capital City Docks
-   - Description : A covert organization involved in illegal trade, offering secretive quests and access to rare contraband.
+## **Section III: World Factions**
 
-- "Sailors Faction"
-   - Location : Sailor's Tavern, Capital City
-   - Description : A brotherhood of seafarers sharing tales, quests, and unique maritime knowledge for aspiring navigators.
+World Factions represent the larger neutral organizations and regional groups throughout the continents. They are primarily composed of human NPCs, except in specific racial regions.
 
-- "Navigators Faction" (also known as Explorers Faction)
-   - Location : Navigator's Lodge, Capital City
-   - Description : Adventurous cartographers and navigators who map uncharted territories and guide players toward hidden locations and treasures.
+### **1. Dendera World Faction**
 
----
+* **Designation:** Knight Faction (mostly human).
+* **Region:** Continent of Dendera (three distinct regions).
+* **NPC Distribution:**
 
-		Hostile Factions on the World Map
+  * Humans in all major settlements.
+  * Vampire NPCs primarily in *Dravenhold* and *Forest of Trevale*.
 
-1. "Nightfall Pirates"
-   - Location : Crimson Reef
-   - Description : A notorious group of raiders known for their ruthless plundering of coastal villages and seafaring vessels.
+### **2. Zonen World Faction**
 
-2. "Red Bandana Pirates"
-   - Location : Stormbreaker Isle
-   - Description : A rival pirate gang controlling the treacherous waters of the Stormbreaker region.
+* **Designation:** Pindar Faction (mostly human).
+* **Region:** Continent of Zonen (three distinct regions).
+* **NPC Distribution:**
 
-3. "Bloody Daggers Pirates"
-   - Location : Northern Island
-   - Description : Fierce enemies of the Red Bandana Pirates, they vie for control of the northern trade routes.
+  * Humans in all major settlements.
+  * Werewolf NPCs primarily in *Dreadhollow Fortress* and *Arsshis Woods*.
 
-4. "Naga Faction"
-   - Location : Vashthara
-   - Description : A secretive, underwater faction of serpent-like beings, hostile to all land-dwellers encroaching on their territory.
+### **3. Neutral Zones**
 
-5. "Faction of Evil Trolls"
-   - Location : Harlet's Forest
-   - Description : A savage group of trolls intent on spreading chaos in nearby regions.
+* **Middlean Island (Capital City Island):**
 
-6. "Faction of Giants"
-   - Location : Fanthe'kar
-   - Description : Towering and territorial, these giants are known to attack any who enter their domain uninvited.
+  * Neutral ground between Knights and Pindars — PvP-disabled.
+  * All NPCs are humans, representing neutrality.
+  * Hosts several **world NPC factions**, as listed below:
 
-7. "Faction of Ogres"
-   - Location : Wastelands
-   - Description : Brutish and violent, these ogres dominate the barren lands with their sheer strength and numbers.
+**Capital City Factions (World Factions):**
 
-8. "Traitors and Bandits"
-   - Location : Various regions in Dendera and Zonen starting zones
-   - Description : Outcasts and deserters who prey on new adventurers, acting as a constant threat in the early stages of the game.
+* **Spectral NPCs:** Ethereal beings tied to hidden quests and world events.
+* **Ghost Visitors:** Wandering spirits offering cryptic items and information.
+* **Librarians:** Custodians of lore and scrolls at the Great Library; provide quests and access to ancient texts.
+* **Military Faction:** Maintains order and trains adventurers within Capital City.
+* **Anglers Faction:** Found near water bodies; linked with the *Fishing Profession*.
+* **Smugglers Faction (Dockworkers’ Guild):** Covert trade network serving Outlaw players; appears in major ports.
+* **Sailors Faction:** Maritime adventurers and seafarers with questlines at Sailor’s Tavern.
+* **Navigators / Explorers Faction:** Cartographers and explorers guiding players to uncharted territories.
 
 ---
 
-		Various NPC Affiliation Factions (Neutral Factions)
+### **4. Other Notable World Factions**
 
-- Location : Various cities or neutral zones across the map, such as "Middlean Island", "Legrand", and "Outland Territories".
-- Description : Minor factions that players can affiliate with for specific quests, gaining access to different systems, knowledge, or unique items and dungeons. These factions generally don’t impact player allegiance but offer benefits and rewards for certain quests.
+* **Undead Spirits (Underworld Realm):** NPCs, spirits, and humans coexisting in Eldergate.
+* **Fairy Spirits (Fairy Land):** Magical entities aiding mages and warlocks.
+* **Outsiders (Targas, Yewlands):** Hunter-associated NPCs aiding profession rank advancement.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## **Section IV: Minor Factions (Regional / REP-Enabled)**
+
+All minor factions listed below are based in **Aarong Forest** (Outland Territories Continent).
+Each faction is independent, rivaling the others but cooperating with the local NPC community of Sankis (main city).
+Players must choose one — upon doing so, the other four become hostile.
+
+### **1. Dwarven Faction**
+
+* **Emissary:** Dorin Stoneforge
+* **Faction Location:** Gandash Citadel (Friggel Wood, Arberin Forest, Aarong Forest)
+* **Emissary Location:** Northgate of Sankis — within a forge-hall surrounded by mechanical constructs and runic anvils.
+* **Description:** An ancient clan of Earthen Dwarves, masters of stone, metal, and ancient engineering.
+* **Faction Focus / Reputation Rewards:** *Placeholder — to be defined in detail later.*
 
 ---
 
-		Faction Mechanics
+### **2. Gnomes Faction**
 
-- "Reputation System" : Players can raise or lower their reputation with each faction, depending on their choices and interactions.
-  - Joining a faction allows players to unlock specific quests, NPC interactions, buffs, and unique gear.
-  - Players can only belong to one faction at a time but can affiliate with minor factions for additional rewards.
-  - Betraying a faction by joining another without officially severing ties will lead to a permanent loss of buffs and a hostile reputation.
-
-- "Major Faction Influence" :
-  - Players’ actions will affect how NPCs react to them in various cities and zones.
-  - Questlines and events differ based on the faction the player is aligned with.
-  - PvP interactions are heavily influenced by faction rivalries, with battlegrounds and world PvP areas separating the "Knights" from the "Pindars".
+* **Emissary:** Gendri Valwick
+* **Faction Location:** Village of Zimmer (Grim Woods, Arberin Forest, Aarong Forest)
+* **Emissary Location:** Central District of Sankis — fortified dome of brass and crystal conduits.
+* **Description:** Resourceful gnomes skilled in mechanical invention, building, and arcane experimentation.
+* **Faction Focus / Reputation Rewards:** *Placeholder — to be defined in detail later.*
 
 ---
 
-		Additional Notes :
+### **3. Trolls (Cursed Horde)**
 
-- Faction Titles : Each faction can have ranks or titles, from lower ranks like "Recruit" or "Initiate" to higher ranks like "Champion" or "Grand Master" based on reputation levels.
-- Faction Quests and Objectives : Each faction should offer unique questlines, which could involve both story-driven content and side tasks. These quests will reward reputation and unlock further gameplay benefits.
+* **Emissary:** Zha’kor the Ember-Tusk
+* **Faction Location:** Oak Village (Friggel Wood, Arberin Forest, Aarong Forest)
+* **Emissary Location:** Southern District of Sankis — jungle pavilion of obsidian and carved totems.
+* **Description:** Primal and fierce trolls linked to ancient curses and dark survival rituals.
+* **Faction Focus / Reputation Rewards:** *Placeholder — to be defined in detail later.*
+
+---
+
+### **4. Wise Humans**
+
+* **Emissary:** Arven Holt
+* **Faction Location:** Village of Afteria (Grim Woods, Arberin Forest, Aarong Forest)
+* **Emissary Location:** Western Quarter of Sankis — a hall marked by banners of golden wheat and oak.
+* **Description:** A neutral human order of scholars preserving ancient and professional knowledge.
+* **Faction Focus / Reputation Rewards:** *Placeholder — to be defined in detail later.*
+
+---
+
+### **5. Faity Elves**
+
+* **Emissary:** Elyra Windthorn
+* **Faction Location:** Ruins of Marlick (Friggel Wood, Arberin Forest, Aarong Forest)
+* **Emissary Location:** Eastern Grove of Sankis — sanctuary built of marble and luminescent vines.
+* **Description:** Magical elves devoted to the balance of nature and old spiritual magic.
+* **Faction Focus / Reputation Rewards:** *Placeholder — to be defined in detail later.*
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## **Section V: Hostile Factions (Monster Factions)**
+
+Hostile factions are permanently aggressive; no REP can be gained.
+
+1. **Nightfall Pirates** — Crimson Reef
+2. **Red Bandana Pirates** — Stormbreaker Isle
+3. **Bloody Daggers Pirates** — Northern Island
+4. **Naga Faction** — Vashthara
+5. **Evil Trolls Faction** — Harlet’s Forest
+6. **Giants Faction** — Fanthe’kar
+7. **Ogres Faction** — Wastelands
+8. **Traitors and Bandits** — Early Dendera and Zonen regions
+9. **Nation of Orcish** — (Development Pending)
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## **Section VI: Reputation System**
+
+* Only specific factions use the REP system.
+* REP levels typically range across **five layers**, from Neutral to Exalted.
+* REP-Enabled factions include:
+
+  * Undead Spirits
+  * Fairy Spirits
+  * Outsiders
+  * Ghost Visitors
+  * Librarians
+  * Military Faction
+  * Anglers Faction
+  * Smugglers Faction
+  * Sailors Faction
+  * Navigators Faction
+  * Dwarven Faction
+  * Gnomes Faction
+  * Trolls (Cursed Horde)
+  * Wise Humans
+  * Faity Elves
+* Spectral NPCs are **not REP-enabled** — access requires reputation with related or guardian factions.
+* Hostile monster factions are permanently aggressive and cannot be befriended.
+* Realms such as **Underworld** and **Fairy Land** have limited REP systems (2–3 levels).
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## **Section VII: Storyline & Choice Mechanics (Aarong Forest)**
+
+* Players must select **one** of the five minor factions in Aarong Forest.
+* This decision is **mutually exclusive** — the four unchosen factions become hostile.
+* A player may later ally with another faction **only after reaching Exalted** with the first.
+* Each faction unlocks distinct mechanics, bonuses, and systems unique to its type (crafting, runes, regional buffs, etc.).
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## **Section VIII: Regional Context (Outland Territories)**
+
+* **Outland Territories:** One of the major continents, divided into four main regions:
+
+  1. Aarong Forest
+  2. Frozen Territory
+  3. Lagooma Jungle
+  4. Tenebress Territory
+
+* **Aarong Forest Specifics:**
+
+  * Divided between Knight and Pindar influences, both neutral toward each other in this zone.
+  * Home to the five minor factions (Dwarves, Gnomes, Trolls, Wise Humans, Faity Elves).
+  * Emissaries of each faction reside in **Ancient City of Sankis**, the regional hub.
+  * Local NPC communities (guards, merchants, vendors) remain neutral to all factions and players.
+
+* Other Outland regions follow similar structures — neutral settlements, REP-enabled NPCs, and distinct environmental challenges.
+
+---
