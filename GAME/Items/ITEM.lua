@@ -14,8 +14,8 @@ game world.
 - "Helmet" : Headgear that provides defense or special bonuses.
 - "Shield" : A defensive item used to block attacks, often providing protection in combat.
 - "Arrows" : Ammunition for ranged weapons, such as bows or crossbows.
-- "Totem" : A mystical item that may provide buffs or enhance certain abilities or stats.
-- "Rune" : Magical items that can be inscribed onto weapons, armor, or accessories to grant additional powers.
+- "Totem" : A mystical item used by shamans to summon a totem for aiding in combat.
+- "Rune" : Magical items that can be used by warlocks, with the power to animate wordly creatures after death to aid in combat.
 - "Necklace" : A piece of jewelry that can provide a variety of buffs or enhancements to the wearer.
 - "Rings" : Jewelry worn on the fingers, often providing additional stats or magical effects.
 - "Earrings" : Jewelry worn on the ears that grants various benefits, such as elemental resistance or health boosts.
@@ -23,7 +23,7 @@ game world.
 - "Belt" : A waist item that can offer stat boosts or extra inventory space.
 - "Sash" : A decorative yet functional piece of clothing that provides additional benefits, such as agility or mana regeneration.
 - "Costume" : A costume is a cosmetic item that goes over armor or weapons as a "skin" to change their appearance. Costumes do not provide additional stats or buffs but serve to personalize the character’s look. They are often used for visual customization and can be equipped on top of armor or weapons to alter their appearance without affecting their functionality.
-
+*Arrow / Totem / Rune all share the same slot in character's Equipment UI.
 	2. "Consumable Items"  
 - Healing Potions : Items that restore health or provide buffs when used. These items are consumed upon use.
 - Buff Items : Items that temporarily boost a character's stats or abilities.
@@ -64,4 +64,5 @@ acquire, and its potential in the game. Categories may include:
 
 	Item Binding  
 - "Bound Items" : Certain items become bound to the player when acquired, meaning they cannot be traded, sold, or mailed to other players.
+
 - "Unbound Items" : Items that are not bound can be freely traded, sold, or shared between players.
