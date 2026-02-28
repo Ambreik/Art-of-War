@@ -87,7 +87,7 @@ Bonus 0 to 3 (at higher stages) : 12% Chance to absorb damage as HP / 12% HP Reg
 
 *Onyx - BLACK : 
 Bonus 1	: Abilities against Monsters +20% / Strong Against Monsters +20 / Defence Against Monsters attacks +20%.
-Bonus 2 (at higher stages) : 5% Chance to reduce AoE Radius Damage received by skillsby 15%.
+Bonus 2 (at higher stages) : 5% Chance to reduce AoE Radius Damage received by skillsby 15 %.
 Bonus 3 (Mythic) : +15% Elemental Resistance / +15% Strong against Elementals.
 Bonus 0 to 3 (at higher stages) : 12% Chance to avoid arrows / Rune Efficiency Increased by 5% / Buff Efficiency increased by 5%.
 

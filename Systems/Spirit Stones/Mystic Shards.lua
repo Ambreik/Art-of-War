@@ -109,7 +109,7 @@ the same shard on the same item."
 	- +3: +5%  
 	- "Mastercrafted" : +8%  
 
-4. "Shatter Shard" (Chance for critical hits)  
+4. "Shatter Shard" (Chance for critical skill)  
 	- +0: +1%  
 	- +1: +2%  
 	- +2: +3%  
@@ -141,6 +141,7 @@ the same shard on the same item."
 	- +5% base chance  
 	- cannot be upgraded
 	- drop from "World Chest" with a low chance.
+	
 ---
 
 		Legendary Shards  
@@ -173,7 +174,7 @@ or challenges. They are harder to obtain and carry a higher risk/reward factor.
 		- +4: +30% vs Notorious / -12% vs Regular Monsters  
 
 4. "Shard of Backlash"  
-	- Bonus :  Increases critical hit chance.  
+	- Bonus :  Increases critical skill chance.  
 	- Drawback :  Reduces attack speed.  
 	- Stats :   
 		- +0: +2% Crit Chance / -1% Attack Speed  

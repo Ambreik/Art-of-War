@@ -145,3 +145,86 @@ if discovered.
 - Players bribe tavern keepers in Outland Territories to spawn hints for hidden outlaw bosses.
 
 ---
+
+		Bribery Buffs & Debuffs
+
+	Buffs (Positive Effects)
+
+These are temporary benefits when bribery succeeds.
+
+	1. Guard’s Blind Eye
+
+* Effect : Guards and patrol NPCs reduce detection radius by 30%.
+* Duration : 5–10 minutes (scales by NPC tier bribed).
+* Flavor : "The guard pretends not to notice your presence."
+
+---
+
+	2. Smuggler’s Favor
+
+* Effect : Temporary access to hidden outlaw shops or smuggling transports.
+* Duration : Until leaving the region.
+* Flavor : "Your silver buys silence… and a little extra."
+
+---
+
+	3. Underworld Connections
+
+* Effect : +10% better prices at outlaw merchants, +5% black-market success chance.
+* Duration : 30 minutes.
+* Flavor : "A nod and a wink from the shadows open hidden doors."
+
+---
+
+	4. Bribery Momentum (stacking)
+
+* Effect : Each successful bribe in a city reduces the cost of the next by 5% (up to -20%).
+* Duration : Until leaving the city/region.
+* Flavor : "The more you grease palms, the easier hands stay open."
+
+---
+
+	Debuffs (Negative Effects)
+
+These occur if bribery fails, or if the player abuses the system too often.
+
+	1. Bribery Fatigue
+
+* Effect : +20% bribe cost for next attempt. Stacks up to 3 times.
+* Duration : 15 minutes.
+* Flavor : "Word spreads fast: you’re running out of coin."
+
+---
+
+	2. Marked by the Pack
+
+* Effect : Guards are more suspicious → detection radius increased by 25%.
+* Duration : 20 minutes.
+* Flavor : "You’ve been pointed out as the shady one."
+
+---
+
+	3. Rumored Corruptor
+
+* Effect : -10% lawful reputation gain, +10% outlaw reputation gain.
+* Duration : 1 hour (city-wide).
+* Flavor : "The streets whisper your name alongside dirty coins."
+
+---
+
+	4. Betrayed Bribe
+
+* Trigger : On critical bribery failure.
+* Effect : NPC alerts guards immediately, spawning an elite patrol.
+* Duration : Instant event (no buff/debuff duration).
+* Flavor : "Your coin bought you nothing but betrayal."
+
+---
+
+	5. Corruption Heat (regional mechanic, not per-player)
+
+* Effect : Costs for all players in the city increase by 10–50% as corruption rises.
+* Duration : Persists until players complete world events (anti-corruption quests).
+* Flavor : "The whole city reeks of bribes — and everyone wants their cut."
+
+---
