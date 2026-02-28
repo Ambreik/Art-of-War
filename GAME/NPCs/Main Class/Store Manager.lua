@@ -78,7 +78,7 @@ items allow players to access their stored inventory without visiting a physical
 
 	Mechanics :
 
-* Players use a "Portable Bank" item to summon a temporary "Store Manager" NPC in the wilderness or other locations.
+* Players use a "Portable Bank Token" item to summon a temporary "Store Manager" NPC in the wilderness or other locations.
 * Duration: 15–20 minutes (depending on item type).
 * Range: Store Manager disappears if the player moves out of a predefined radius.
 * Functionality: Full access to personal item storage, including slots unlocked via "Storage Permits" (temporary expansions) or "Infinite Storage Tokens" 

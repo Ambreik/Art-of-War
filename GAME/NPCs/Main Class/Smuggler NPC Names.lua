@@ -71,6 +71,22 @@
 * Keira Marcelline – Dock forewoman secretly trading foreign relics.
 * Tomas “Old Hook” Riddar – Retired sailor who helps Outlaws slip past patrol ships.
 
+
+		Netar Island
+
+		Zone 1 - Southfall Dominion / The Landing Port of Southfall
+*Panicked Dockside Smuggler - Hidden event enemy spawned from “Suspicious Cargo” crates.
+
+	Zone 2 - Vaelthorne Frontier / Tideglass Passage
+*Lorian “Tidefinger” Vesh - Hidden alcove midway in Tideglass Passage ; Smuggling Route Coordinator
+
+	Zone 4 - Eastvaale Crest / Sunveil Market Town — Wandering
+*Darian Crowfen - Clever, sly, and opportunistic ; Can provide "Flying" discounts.
+
+	Zone 5 — Northspire Reach / Stormreach Watch
+*Mr. B & Mr. D - Twin goblins wondering for prays in alleys, storage caverns, secluded stairways, behind the lodge
+*Artefill – The Sly Merchant - Small, wiry humanoid, cloaked in dark leathers and a hood, face partially masked.
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 		Outland Territories

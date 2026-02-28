@@ -1,6 +1,6 @@
 			Smuggler NPC
 
-		1. Introduction**
+		1. Introduction
 
 	The "Smuggler" is a discreet yet influential NPC type that operates across ports, trade districts, and hidden corners of major human settlements.
 	Smugglers act as intermediaries between lawful trade and the underground world, connecting regular adventurers and Outlaws through illicit networks of goods, 
@@ -10,7 +10,7 @@ information, and secret routes.
 unique dual function:
 *they serve lawful players through secret trust-based missions and act as logistical allies for Outlaws moving between territories.
 
-	Smugglers thrive in ambiguity — their loyalty lies not with law or rebellion, but with **profit and secrecy**.
+	Smugglers thrive in ambiguity — their loyalty lies not with law or rebellion, but with profit and secrecy.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 

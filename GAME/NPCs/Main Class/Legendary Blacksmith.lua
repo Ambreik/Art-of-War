@@ -60,6 +60,7 @@ in major cities, though their presence commands far greater prestige.
 	* "Player REP" (higher REP lowers repair costs).
 	* "Player Profession Rank" (Blacksmith players enjoy increased efficiency).
 * "Legendary Equipment" is immune to standard durability loss and therefore cannot be repaired — it is self-sustaining through its magical essence.
+* Can repair "Gliders" similar with function of "Orwin Skyshard — Glider Engineer", but he is only "repair" gliders.
 
 ---
 

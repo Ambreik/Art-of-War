@@ -377,7 +377,7 @@ depending on the region and player faction.
 		* Holds [HERO] status
 		* Maximum reputation with their main continent or Capital City
 		* Top 5 PvP ranking
-* Portable "Pet Master" Item :
+* Portable "Pet Master Token" Item :
 	* Allows players to summon a temporary "Pet Master" for 5–10 minutes.
 	* Item disappears upon use and cannot be reused.
 

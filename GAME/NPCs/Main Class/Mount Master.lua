@@ -8,7 +8,7 @@ ability enhancements, and skill scrolls.
 
 ---
 
-		Expanded Description
+		Description
 
 	Mount Masters are highly respected figures across all known regions, serving as both guardians and caretakers of the noble beasts that carry adventurers through
 their journeys. Their bond with mounts is more than professional — it is deeply spiritual. Each Mount Master believes that every creature entrusted to their care 
@@ -77,7 +77,7 @@ than a tool.
 
 		Mount Revivalist
 
-	In the event that a mount — be it a horse, beast, or exotic creature — is injured or dies, the Mount Master can revive it for a fee, allowing players to 
+	In the event that a mount — be it a beast, or exotic creature — is injured or dies, the Mount Master can revive it for a fee, allowing players to 
 continue using their mounts in the game world.
 	The process of revival is more than a service — it is a sacred ritual. Mount Masters are trained in the ancient art of reawakening a mount’s life essence using 
 rare materials such as "Phoenix Bloom petals", "Spirit Water", or "Soul Dust".
@@ -187,6 +187,13 @@ recognizes their bond and trust.
 	This system integrates the "Mount Master" into the player’s overall progression, making them more than just a service provider — they become a trusted partner 
 in the player’s growth, reflecting both achievement and dedication.
 
+---
+
+	Other Mechanics
+	
+	"Mount Masters" can be summoned by players anywhere outside of a human settlement, by simply using a spawner item called "Mount Stable Token" that summons a
+personal Mpunt Stable NPC in field. Limited duration (10 minutes).
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 		4. NPC Characteristics and Appearance
@@ -247,7 +254,7 @@ master is threatened. However, such aggression is purely protective and not PvP-
 
 ---
 
-	Location and Environmental Integration
+		Location and Environmental Integration
 
 	"Mount Masters" are typically found in stables, inns, or open ranches, often alongside "Stablekeepers" or "Pet Masters". Their environments are purposefully 
 designed to evoke tranquility and care — sounds of gentle wind, neighing, and soft torchlight accompany their presence.
@@ -389,20 +396,50 @@ expanding as the player’s mount rank, profession level, or Mount Master trust 
 * "Mount Food"
 	Essential consumables that sustain and strengthen mounts. Food quality and effects vary by rarity and origin.
 	Examples include:
-	* Field Grain Feed – Restores basic stamina and hunger.
-	* Refined Herb Mix – Enhances recovery and resistance to fatigue.
-	* Golden Oats of Rydia – A premium food granting temporary movement and endurance bonuses.
-	* Frostleaf Blend – A special cold-resistant feed, effective for mounts in frozen regions.
-    These foods can be purchased individually or in bulk, with certain Mount Masters offering regional specialties (e.g., jungle herbs, tundra grains).
+	
+	Basic Feed	
+* Endurance Grain			Evolved / Exotic	
+* Sky Herb Mix			Flying Mounts	Reduces stamina drain for 10 min.
+* Aqua Fruit Blend		Aquatic Mounts	Restores stamina faster when underwater.
+* Field Grain Feed 		Restores basic stamina and hunger.
+* Refined Herb Mix 		Enhances recovery and resistance to fatigue.
+* Golden Oats of Rydia  A premium food granting temporary movement and endurance bonuses.
+* Frostleaf Blend 		A special cold-resistant feed, effective for mounts in frozen regions.
+   
+   These foods can be purchased individually or in bulk, with certain Mount Masters offering regional specialties (e.g., jungle herbs, tundra grains).
+
+	Each mount’s diet depends on its elemental type and class, for example:
+* "Wind Feed" – light fruit blend
+* "Earth Feed" – root/grain mix
+* "Fire Feed" – spiced meat or ember fruit
+* "Water Feed" – fish or aquatic herbs
+* "Shadow Feed" – nocturnal fruit or dark roots
+* "Light Feed" – blessed grain and holy herbs
+
 
 * "Mount Enhancements"
 	Consumable or equippable items that improve a mount’s combat or traversal abilities.
 	Examples include:
-	* Saddle of Endurance – Increases mounted travel time before rest is required.
-	* Rein of Windstride – Adds a small burst-speed ability (usable every 2 minutes).
-	* Ironhoof Shoeing Kit – Enhances mount stability and knockback resistance.
-	* Skill Scrolls of Bonding – Unlocks mount-specific abilities such as charge attacks, dodging, or extended carrying capacity.
-   
+* "Wind Feather Essence" → +Speed %
+* "Earth Core Essence" → +Defense & Stability
+* "Fire Mane Essence" → +Damage Output
+* "Shadow Claw Essence" → +Critical Rate
+* "Saddle of Endurance" → Increases mounted travel time before rest is required.
+* "Rein of Windstride" → Adds a small burst-speed ability (usable every 2 minutes).
+* "Ironhoof Shoeing Kit" → Enhances mount stability and knockback resistance.
+* "Skill Scrolls of Bonding" → Unlocks mount-specific abilities such as charge attacks, dodging, or extended carrying capacity.
+* "Reinforced Saddle" → +5% stamina recovery. 
+* "Woven Mane Straps" → 10% drain during combat.
+* "Aquatic Fin Harness" → 15% drain underwater.
+
+	2. Advanced / Rare Gear
+	Item Name					Effect / Notes
+* "Spiritbound Saddle"	→	Reduces stamina cost by 15%.
+* "Windveil Manecloth"	→	+15% Speed in windy or stormy regions.
+* "Scaleplate Barding"	→	+10% Defense; +5% success vs magical attacks.
+* "Runic Bridle"		→	+5% taming success chance when equipped.
+* "Eternal Horseshoes"	→	Negates terrain penalties (mud, sand, snow).
+
    These enhancements may be temporary, permanent, or limited by mount rank.
 
 * "Revival Items"
@@ -483,7 +520,7 @@ regions, and biomes are discovered.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-		7. Mount Master Locatio
+		7. Mount Master Locations
 
 	"Mount Masters" are strategically placed across the game world to ensure players have access to mount-related services whenever they need them. Their locations 
 are tied to both functional needs (storing, reviving, and enhancing mounts) and world immersion (travel hubs, stables, and high-traffic areas).

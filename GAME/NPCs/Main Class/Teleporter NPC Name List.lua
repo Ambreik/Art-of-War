@@ -7,10 +7,14 @@
 	* Teleports players to and from "Bazaar" locations freely or for a small fee.
 
 2. "Telara Windstrider" – *Dendera Regional Teleporter*
-   * Found in "Fanthe’kar" and "Garland" of "Dendera" continent.
-   * Uses "Golden Sand Pouch" and "Whispering Leaf" as travel currencies.
+	* Found in "Fanthe’kar" and "Garland" of "Dendera" continent.
+	* Uses "Golden Sand Pouch" and "Whispering Leaf" as travel currencies.
 
-3. "Lirien Starwhisper" – *Zonen Regional Teleporter*
+3. "Assuro" - *Dendera Regional Teleporter*
+	* Found in "Dravenhold Citadel" as a teleporter to "Fanthe’kar".
+	* Uses "Silver" as travel currency.
+
+4. "Lirien Starwhisper" – *Zonen Regional Teleporter*
    * Found in "Askania" and "Wastelands" of "Zonen" continent.
    * Uses "Ebon Shard Sigil" and "Lunacrest Ember" as travel currencies.
 

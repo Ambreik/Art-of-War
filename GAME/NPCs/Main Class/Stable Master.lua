@@ -172,4 +172,9 @@ subtly based on the player’s horse progress, reputation, or prior interactions
 * Gesturing towards stables for guidance.
 * Interacting with Mount and "Pet Masters", showing managerial oversight.
 
----
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+		7. Other Mechanics
+	
+	"Stable Masters" can be summoned by players anywhere outside of a human settlement, by simply using a spawner item called "Stable Token" that summons a
+personal Stable NPC in field. Limited duration (10 minutes).
