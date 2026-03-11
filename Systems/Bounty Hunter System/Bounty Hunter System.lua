@@ -1,4 +1,4 @@
-			Bounty & Criminal System Overview  
+			Bounty & Criminal System  
 
 	The "Bounty & Criminal System" is a dynamic justice system that governs law and order in the game world. It introduces crime mechanics, player-driven bounty 
 hunting, and faction-based responses to unlawful actions. This system ensures that criminal activity has meaningful consequences while allowing players to engage in
