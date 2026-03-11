@@ -1,0 +1,35 @@
+quest village begin
+	state start begin
+		when login or levelup with pc.level >5 begin
+			set_state(village)
+		end
+	end
+		
+	state village begin
+		when 9003.chat."Bazzar" begin
+			say(""..mob_name(9003)..":")
+			say("Hi, great traveler!")
+			say("I know a place where you can spend money.")
+			say("It's like a village for all kingdoms where you")
+			say("can sell or buy items.")
+			say("")
+			local a= select("I want to go","No, thanks")
+			if 1==a then
+				say(""..mob_name(9003)..":")
+				say("I am happy to teleport you there. See you later!")
+				say("")
+				wait()
+				pc.warp(444400 , 444400)
+			elseif 2==a then
+				say(""..mob_name(9003)..":")
+				say("Okey, come back later then.")
+				say("")				
+			end
+
+
+		end
+			
+
+	end
+
+end
