@@ -1,0 +1,1 @@
+Boss is located on the peak of "Greenard Rocks".
