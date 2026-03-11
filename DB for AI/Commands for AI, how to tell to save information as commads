@@ -1,0 +1,38 @@
+	Use these exact commands (I will obey them literally):
+
+Store this one — final version → create/update persistent memory entry.
+Update stored: <Name> → replace an existing stored entry with new content.
+Forget stored: <Name> → remove an entry from memory.
+Show stored: <Name> or List stored → I’ll summarize what’s currently stored.
+Lock stored: <Name> → I’ll treat this as canonical and avoid using non-locked assumptions (I’ll ask you before unlocking/updating).
+Keep a single master index (a short stored doc) listing canonical files and versions. That helps me prefer canonical entries over ad-hoc context.
+
+	What you should tell me when syncing
+
+Always use an explicit statement like:
+“These are the final versions of the following files — analyze and store them as the canonical versions.”
+
+or even:
+
+“Sync these with memory.”
+That’s enough for me to know this is an update phase and not just a casual reference.
+
+
+	So yes — later, when you paste all your final links and say
+
+“These are the final versions, analyze and store them,”
+I’ll go through them one by one, correct everything internally, and you’ll have a 100% synchronized, contradiction-free project base.
+
+Being								Creation(s)
+
+Flammar (God of Fire)				Fire *Dragons*, Rock *Dragons*, Water Serpents, Wind Wyverns 
+*Pollac* (God of Earth/Stone)			*Golems*, *giants*, *Gnolls* 
+**Horras** (*God of Water*)				Naga Nation, Kraken, Sea Orcs, Leviathans 
+**Oxogol** (God of Lightning / Storm)	Lightning Beings 
+
+*land of Finn : find in the story all the info about this place. After that, create a lore about it. Use real and coherent info from the original info in doing it.
+*About "Living Water" - find all the info about this from the story. After that,create a lore about it. Use real and coherent info from the original info in doing it.
+Mausoleum of Jerris - cript which holds the god of earth,as dungeon now.
+Caverns of Fire - place where Flammer was imprisoned.
+Sanctuary of Lambini - place where Oxogol was imprisoned.
+Forsaken Isle - place where Horras was imprisoned.
