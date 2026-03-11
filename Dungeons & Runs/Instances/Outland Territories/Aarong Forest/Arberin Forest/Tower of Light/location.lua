@@ -1,1 +1,0 @@
-Aarong Forest - Lv 70 - 90\Arberin Forest - I\Eloran - Area I\Tower of Light (instance)
