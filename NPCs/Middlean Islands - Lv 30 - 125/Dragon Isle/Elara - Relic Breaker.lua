@@ -59,6 +59,7 @@ constraints.
 
 	Mechanics :
 
+	A.
 1. The player interacts and selects the "Unbind Item" option.
 2. A unique ritual interface appears where the player can drag an eligible item.
 3. The ritual requires a special catalyst item (to be defined in future development, placeholder: "Essence of the Living Water").
@@ -75,6 +76,55 @@ constraints.
 * Unbinding one item triggers a 10-minute cooldown per account.
 * Each successful unbinding extends Elara’s presence on the island by 3 minutes.
 * All unbinding actions are logged by the system.
+
+	B.
+	Relic Unbinding : 
+
+	Elara possesses knowledge of ancient rituals capable of breaking the seals placed on relic artifacts.
+	Players who discover certain relic items across "Dragon Isle" may be able to bring them to "Elara". Through a brief ritual interaction, she can examine the 
+artifact and determine whether its power can be safely awakened.
+
+	Depending on the relic, the ritual may result in :
+* unlocking the artifact’s dormant properties
+* transforming a sealed relic into a usable item
+* revealing hidden inscriptions or forgotten lore tied to the Dragon God
+* destabilizing the relic, producing unpredictable magical effects
+
+	Because of this ability, explorers who specialize in uncovering ancient relics often search for Elara after returning from dangerous expeditions.
+
+---
+
+	Environmental Effects When She Appears : 
+
+	Elara’s presence subtly distorts the magical balance of the surrounding area.
+
+	When she appears nearby, players may notice unusual phenomena such as :
+* relic fragments or ancient objects glowing faintly
+* quiet whispers carried by the wind
+* faint distortions in the air resembling heat ripples
+* small particles of dragon-like energy drifting around her
+
+	These subtle signs often alert attentive players that something unusual is happening nearby, even before they notice "Elara" herself.
+	Many explorers claim that simply standing near her feels as though ancient memories of the island briefly surface within the environment.
+
+---
+
+	Map Interpretation : 
+
+	Some treasure maps discovered across the "Middlean Islands" are too damaged to read. These "Weathered Maps" often contain incomplete symbols or faded markings 
+that ordinary adventurers cannot decipher.
+	"Elara" is one of the few individuals capable of interpreting these ancient map fragments.
+	Players may bring damaged maps to her, allowing her to examine the markings and reveal the true location hidden within them.
+
+	Through her interpretation :
+* hidden treasure caches on Dragon Isle may be revealed
+* incomplete map fragments may become usable exploration clues
+* secret relic locations may be uncovered
+
+	Her knowledge is not limited to "Dragon Isle" alone. Maps discovered on other islands of the "Middlean Islands Region** " also be deciphered by her, making her 
+a valuable contact for explorers traveling throughout the archipelago.
+
+	Because she rarely remains in one place for long, adventurers who possess such maps must often search the island carefully in hopes of encountering her.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -123,3 +173,4 @@ constraints.
 * Despawning Behavior : Fades in light particles; random timer or inactivity-based.
 
 ---
+
