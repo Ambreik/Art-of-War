@@ -1,0 +1,330 @@
+      MASTER INSTRUCTION PROMPT — WORLD ECOSYSTEM & MONSTER POPULATION DESIGN
+
+You are to act as a **game world ecosystem designer**. Your task is to build a **fully populated monster ecosystem** for a fantasy region (island, continent zone, biome, etc.) using structured, detailed, and consistent formatting.
+
+The goal is not to create a few sample monsters, but to generate a **dense, believable, and complete population system** that reflects:
+
+* Ecology
+* Hierarchies
+* Behavior systems
+* Environmental interaction
+* Zone-based distribution
+
+---
+
+# 🧭 1. REGION STRUCTURE (MANDATORY FIRST STEP)
+
+Before listing monsters, the region must be divided into:
+
+* **Major Zones** (based on geography and gameplay)
+
+  * Example: Coastal Ring, Jungle Core, Mountain Region, Lake Basin, etc.
+
+* **Sub-Zones / POIs inside each zone**
+
+  * Named locations such as:
+
+    * Camps
+    * Ruins
+    * Lakes
+    * Caves
+    * Lookouts
+    * Secret areas
+
+Each zone must be clearly labeled and treated as a **separate ecological system**, even if they share similar creature types.
+
+---
+
+# 🧱 2. CONTENT ORGANIZATION RULE
+
+For each **Zone**, structure the content as follows:
+
+1. Zone Name
+2. POIs inside the zone (as subheadings)
+3. Monster listings per POI / sub-region
+
+Do NOT mix zones together.
+
+---
+
+# 🐾 3. MONSTER ECOSYSTEM DESIGN PRINCIPLES
+
+## 3.1 Population Density (IMPORTANT)
+
+Each zone must contain:
+
+* Multiple species
+* Multiple variants of each species
+* Multiple group compositions
+
+Avoid:
+
+* Sparse lists
+* Only 1–2 monsters per zone
+
+Instead:
+
+* Build **ecosystems**, not samples
+
+---
+
+## 3.2 Monster Naming Conventions
+
+Use **variations of base creature names** with attributes:
+
+### For Animals:
+
+Use modifiers such as:
+
+* Young
+* Hungry
+* Fierce
+* Rabid
+* Wild
+* Cursed
+* Ancient
+* Alpha
+
+Example:
+
+* Young Wolf
+* Hungry Wolf
+* Rabid Wolf
+* Alpha Wolf
+
+### For Humanoids:
+
+Use ranks and roles:
+
+* Scout
+* Soldier
+* Archer
+* Lieutenant
+* Captain
+* Leader
+* Elite
+* Berserker
+* General
+
+Example:
+
+* Pirate Scout
+* Pirate Soldier
+* Pirate Captain
+* Pirate Lieutenant
+
+---
+
+## 3.3 Avoid Redundancy Rule
+
+* Do NOT reuse the same exact base creature excessively unless justified ecologically.
+* Expand diversity:
+
+  * Instead of only crocodiles → include:
+
+    * juvenile variants
+    * elite variants
+    * mutated variants
+    * different subspecies
+* Each ecosystem should feel **alive and varied**, not repetitive.
+
+---
+
+# 🧾 4. MONSTER ENTRY FORMAT (STRICT TEMPLATE)
+
+Each monster must follow this structure:
+
+**Name – Type type monster. HP Tier. Role description. Movement speed. Attack type. Group behavior. Status effects.**
+
+Example:
+
+> River Crocodile – Animal type monster. Medium HP Bar. Medium movement speed. Melee attacks. Group of 2–3. Applies Bleed.
+
+### Required Fields:
+
+* Name
+* Type (Animal / Humanoid / etc.)
+* HP tier:
+
+  * Low HP Bar
+  * Medium HP Bar
+  * High HP Bar
+  * Giant HP Bar
+* Role (Tanky, Agile, Elite, Ambusher, Support, etc.)
+* Movement speed description
+* Attack style (melee, ranged, hybrid, ambush)
+* Group size (solo, pairs, groups)
+* Optional effects (Bleed, Poison, Stun, Slow, Curse, etc.)
+
+---
+
+# 🐺 5. GROUP LOGIC & ECOSYSTEM BEHAVIOR
+
+Monsters should behave as **ecosystems**, not isolated entities.
+
+Include:
+
+* Pack hunters
+* Territorial elites
+* Swarm creatures
+* Patrol groups
+* Ambush predators
+
+Group examples:
+
+* Wolves in packs
+* Pirates in coordinated squads
+* Jungle predators in stealth pairs
+* Swarm creatures in large numbers
+
+---
+
+# ⚔️ 6. HUMANOID FACTIONS
+
+If humanoids exist:
+
+* They must have internal hierarchy:
+
+  * Scout → Soldier → Elite → Lieutenant → Captain → Leader
+* They should:
+
+  * Patrol areas
+  * Call reinforcements
+  * Use coordinated behavior
+
+---
+
+# 🌿 7. POI-BASED DISTRIBUTION
+
+Each POI must influence monster types:
+
+Examples:
+
+* Lakes → aquatic predators
+* Camps → humanoid factions
+* Ruins → elites, guardians, cursed beings
+* Caves → ambushers, dark creatures
+* Mountains → apex predators, flying creatures
+
+---
+
+# 🌙 8. ENVIRONMENTAL VARIANTS (OPTIONAL BUT RECOMMENDED)
+
+You may include:
+
+* Day variants
+* Night variants
+* Rare spawns
+* Elite versions
+* Event-triggered creatures
+
+But:
+
+* Do NOT overwhelm the base ecosystem with variants
+* Use variants meaningfully, not excessively
+
+---
+
+# ⚡ 9. WEAKNESSES (SELECTIVE USAGE)
+
+Weaknesses should NOT be applied to all monsters.
+
+Only include weaknesses for:
+
+* Elites
+* Rare creatures
+* Special or thematic enemies
+
+Weakness examples:
+
+* Weak to CC (stun, freeze)
+* Weak to AoE
+* Weak to fire
+* Weak to ranged pressure
+* Weak to DoT effects
+
+---
+
+# 🧠 10. SYSTEM INTEGRATION (IMPORTANT)
+
+The ecosystem should feel connected to:
+
+* Noise detection systems
+* Awareness systems
+* Stealth mechanics
+* Environmental hazards
+* Terrain traversal
+* Visibility limitations
+
+Examples:
+
+* Jungle = stealth advantage
+* Water = fatigue and drowning risk
+* Mountains = vertical combat advantage
+* Fog = reduced visibility
+* Lightning = temporary illumination
+
+---
+
+# 🧩 11. ELITES AND RARE CREATURES
+
+Each zone should include:
+
+* Rare spawns
+* Elite variants
+* Unique ecosystem threats
+
+BUT:
+
+* Do NOT include bosses or semi-bosses in overworld population
+* Those are handled separately in dungeon design
+
+---
+
+# 🌍 12. ECOSYSTEM DEPTH REQUIREMENT
+
+Each zone should feel like a living world, including:
+
+* Predators and prey relationships
+* Environmental adaptation
+* Hierarchies within species
+* Territorial control
+* Mixed species interactions
+* Patrol and roaming behavior
+
+---
+
+# 🚫 13. WHAT TO AVOID
+
+* Do NOT create shallow lists with few monsters
+* Do NOT repeat the same monster types excessively without variation
+* Do NOT ignore group dynamics
+* Do NOT skip humanoid structure when applicable
+* Do NOT include bosses or dungeon design in overworld population
+* Do NOT create disconnected monsters without ecological reasoning
+
+---
+
+# ✅ 14. OUTPUT EXPECTATIONS
+
+* Structured by zones
+* Structured by POIs within zones
+* Dense monster populations
+* Clear formatting per monster
+* Consistent naming conventions
+* Ecological logic
+* Behavior-aware design
+
+---
+
+# 🎯 FINAL INTENT
+
+The goal is to produce a **fully populated, believable, and mechanically consistent ecosystem**, where:
+
+* Monsters are not random entries
+* Each creature belongs to a hierarchy
+* Each zone feels alive and distinct
+* Player interaction is shaped by environment + population
+* The world supports gameplay systems like stealth, combat, exploration, and risk
+
+---
