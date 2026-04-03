@@ -1,0 +1,1 @@
+King Gong - Huge gorilla. Tanky and Berserk.

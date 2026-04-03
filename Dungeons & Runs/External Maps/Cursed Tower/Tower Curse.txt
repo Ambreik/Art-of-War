@@ -1,0 +1,31 @@
+ Etajul 1 -> omori toti mobii de la etajul 1
+Etajul 2 -> omori toti mobii inafara de boss ,care va fi omorat ultimul (cum era inainte pe ro la etajul 6)
+Etajul 3 -> omori toti mobii iar cand nu va mai fi nici un nici un mob la etaj , vor aparea 2 metine : 
+Metinul A -> spart te trimite mai sus.
+Metinul B -> spart te trimite map1 si iti dropeaza o cheie speciala care este necesara la etajul 4.
+Etajul 4 - > este un mob , omorat el respawneaza un semi boss , acesta omorat va reslapwna semi bossul 2 , cand si acesta va fi omorat va aparea (va respawna ) bossul etajului cu multi mobi in jurul lui si un gardian pe marginea etajului. Acest gardian va fi functional , dupa ce bossul a fost omorat. Odata accesat  sa intrebe daca sunt pregatiti sa urce mai departe si liderul sa arate simbolul razboinicului (cheia care este dropata de metinul de la etajul 3) Aici trebuie sa faca grupa si sa accepte confirmarea ca vor sa urce.
+Cei ce nu sunt in grupa sa fie respawnati automat in map1 si sa le spuna sistemul ca ei nu au fost selectati de catre cavaler sa i se alature pentru a strabate turnul pana la ultimul etaj.Au 60 secunde sa faca grupa , iar cei ce vor ramane neselectati sa fie trimisi in map1 , primind mesajul ca ei nu apartin grupului format de cavaler…
+Etajul 5 -> prima data apar 3 turnuri , apoi 4 metine ai 10 minute la dispozitie sa spargi toate 4 metinele si sa pui cheile dropate peste cele 3 turnuri (ca la etajul 5 pe ro , asemanator) apoi vor aparea mobi si trebuie omorati.Acestia dropeaza cate o cheie pe wave (itemul va fi ca la etajul 8 acele 2 chei { 30303 si 30304) Vor fi 3 wavuri care apar la 5 minute diferenta in timp un wave de altul.
+Etajul 6 -> Vor fi 6 semibosii si un boss , ca sa omori bossul trebuie sa ii omori minionii care sunt mai greu de omorat.Minionii trebuies omorati toti inaintea bossului , altfel toti playerii de la etaj vor fi teleportati la etajul 1 (sau map1)
+Etajul 7 -> vor fi 3 wave-uri de mobi , si la fiecare va fi cate un semi boss care va dropa sigiliul etajului ( pergamentul care este dropat de metinul de la etajul 7 ca sa urci la etajul 8 pe ro [30302] ) dai pe fiecare si urca toata grupa sus (adica toti playerii de la etaj )
+Etajul 8 – Initial va fi un metin , odata spart iti spune pe chat sa fii pregatit pentru venirea furiei noptii , sau sa ne pregatim pentru sfarsitul nostru.Apoi dupa un minut de la spargerea metinului sa apara 4 metine si in momentul in care primul metin a fost spart sa apara si bossul.Trebuie ca unii sa sparga metinele si altii sa dea in boss , la fiecare 50 secunde dragonul sa respawnze alte 4 metine si tot asa.daca nici un metin nu va fi spart dragonul va fi si mai puternic.Daca toate metinele vor fi sparte mereu , dragonul va fi slabit si dmg primit va fi din ce in ce mai mare.
+Etajul 9 -> Vor fi 4 metine. 
+Metinul A ->  metinul de lv 5 – acest metin sa fie ultimul spart , adica odata spart acest metin toti vor fi automat urcati la ultimul etaj.Daca doar acest metin este spart si celelalte nu , bossul sa aibe pv si atacul standard.
+
+Metinul B -> metinul de lv 10 – acest metin spart face ca bossul de la 10 sa fie slabit si deci usor de batut. Odata spart acest metin , sa dispara metinul C.
+
+Metinul C -> metinul de lv 15 – odata spart metinul asta toti playerii etajului vor primii 30168 (cu acest item daca te duci la capitan sa iti dea o lada, ea sa contina multe iteme) iar bossul sa fie extrem de greu de batut. . Odata spart acest metin , sa dispara metinul B.
+
+Metinul D -> metinul de lv 20 – nu trebuie spart altfel vor fi toti respawnati in map1
+Etajul 10 ->Vor fi 4 wave-uri de mobi respawnate la 5 minute iar apoi va aparea bossul.
+Care trebuie batut in 15 minute.La 5 minute dupa ce bosul a fost omorat toti vor fi teleportati map1.
+
+
+Etajul 6 - sa arate global ca liderul grupei a ajuns la etajul 6 si ca va incerca sa omoare bosul
+Etajul 8 - sa arate global ca liderul grupei a ajuns la etajul 6 si ca va incerca sa omoare bosul
+Etajul 10 - sa arate global ca liderul grupei a ajuns la ultimul etaj , si ca va incerca sa omoare bosul
+
+Etajele 9+10 sa fie mobii cei de foc din mapa beta.
+Etajele 1+2 sa fie maimutele simple cateva grupe , cele medii cateva grupe Iar maimutele de piatra sa fie un semiboss (lider de grupa) cu gorila de aur si grenadieri 2 in grup.Bossul de la 2 sa fie lordul maimuta’.
+La etajele celelalte sa pastrezi aceiasi mobi , sau poti face tu grupe de mobi care sunt pe invoice..dar sa faci la etajele 4 regele de la 3 , la 6 sa fie acelasi boss, la 8 sa fir tot bosul de la 6.La etajul 10 sa fie reaperul sau cel mai bine ar fi lordul boss din mapa beta de foc.O sa schimb eu codul cu bosii mei candi ii implementez . 
+Ca sa poti accesa DT sa ai minim lv. 90

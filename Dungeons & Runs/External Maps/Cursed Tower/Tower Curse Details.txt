@@ -1,0 +1,12 @@
+etajul 5 - sa arate global ca liderul grupei a ajuns la etajul 5 si ca va incerca sa urce mai departe
+etajul 6 - sa arate global ca liderul grupei a ajuns la etajul 6 si ca va incerca sa omoare bosul
+etajul 7 - sa arate global ca liderul grupei a ajuns la etajul 5 si ca va incerca sa urce mai departe
+etajul 8 - sa arate global ca liderul grupei a ajuns la etajul 6 si ca va incerca sa omoare bosul
+etajul 9 - sa arate global ca liderul grupei a ajuns la etajul 9 si ca va incerca sa urce mai departe
+etajul 10 - sa arate global ca liderul grupei a ajuns la ultimul etaj , si ca va incerca sa omoare bosul
+
+La etajul 4 sa apara un gardian , dupa ce toti monstrii au fost omorati inclusiv bossul si sa realizat cerinta nivelului respectiv.
+Acest gardian sa intrebe daca sunt pregatiti sa urce mai departe si liderul sa arate simbolul razboinicului (un item 
+care este negociabil si se cumpara cu tockenuri d ela npc de iteme pvm) Aici trebuie sa faca grupa si sa accepte confirmarea ca vor sa urce.
+Cei ce nu sunt in grupa sa fie respawnati automat in map1 si sa le spuna sistemul ca ei nu au fost selectati de catre cavaler sa i se alature 
+pentru a strabate turnul pana la ultimul etaj.
