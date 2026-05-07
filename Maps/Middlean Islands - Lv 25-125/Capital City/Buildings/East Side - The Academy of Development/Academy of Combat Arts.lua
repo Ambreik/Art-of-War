@@ -1,247 +1,100 @@
-			Academy of Combat Arts — Capital City (East Side District)**
+			Academy of Combat Arts
+
+The **Academy of Combat Arts** is the grand military and martial training complex of the Capital City. Built from reinforced stone and enclosed within decorated defensive walls, this vast structure serves as the primary place where combatants of every discipline refine their mastery.
+
+Tapestries, statues, weapon displays, and engraved symbols decorate the halls, each representing a different combat philosophy. While the interior is divided into multiple themed wings known as *Academies*, these are not separate schools but specialized training environments designed to immerse fighters in the essence of their combat style.
+
+Inside, players train through sparring, drills, weapon practice, and skill progression under the guidance of their **Class Master Trainer**.
 
 ---
 
-## **Academy of Combat Arts**
+## Structure & Training System
 
-The **Academy of Combat Arts** is a vast, multi-winged training complex located in the East Side of Capital City. Built as a monumental fortress of discipline and mastery, it serves as the primary combat training hub for all warriors, mages, rogues, and hybrid fighters of both **Dendera** and **Zonen** factions.
+The Academy uses a **point-based progression system** tied to:
 
-Each wing of the academy is dedicated to a specific combat discipline, reflecting the diversity of fighting styles that exist across the world. Massive stone halls, engraved training grounds, weapon vaults, and elemental practice zones define the structure, while banners and statues of legendary warriors reinforce the spirit of progression and mastery.
+* Sparring exercises
+* Combat simulations
+* Practice dummies
+* Terrain-based training platforms
+* Skill trials supervised by trainers
 
----
+As players advance from **Basic → Master → Grand Master → Perfect Master**, they unlock stronger abilities, improved combos, and class-specific enhancements.
 
-# ⚔️ **Overall Structure and Mechanics**
-
-The Academy of Combat Arts is designed around a **progressive mastery system**, where players evolve their combat abilities through:
-
-* Training exercises and sparring sessions
-* Skill-based progression points
-* Weapon mastery drills
-* Tactical combat simulations
-* Tier advancement (Basic → Master → Grand Master → Perfect Master)
-
-Each class follows a **shared mechanical foundation**, but differs in:
-
-* Weapon Type usage
-* Combat identity (Dendera vs Zonen)
-* Skill flavor and progression style
-
-The academy also contains:
-
-* Sparring rings for duels
-* Training dummies for skill testing
-* Weapon display halls
-* Terrain-based combat arenas (elevated zones, obstacle fields, reaction drills)
+Each wing of the academy is designed to reflect the philosophy of a combat style through terrain, decoration, and equipment — rocky platforms for warriors, shadowed corridors for assassins, elevated posts for archers, ritual spaces for mystics, and more.
 
 ---
 
-# 🧠 **Class Progression System**
+## The Fourteen Themed Training Wings
 
-* Players earn **Combat Mastery Points**
-* Points unlock:
+These are **training environments**, not NPC counts.
 
-  * New skills
-  * Skill upgrades
-  * Combo enhancements
-  * Passive combat bonuses
+1. Academy of Swordsmen
+2. Academy of Blood Knife
+3. Academy of Eternal Shield
+4. Academy of Wrath Sword
+5. Academy of the Essence of Life
+6. Academy of Night
+7. Academy of Purple Fangs
+8. Academy of Bow Master
+9. Academy of Eternal Scepter
+10. Academy of Bright Bell
+11. Academy of Mastery Guardians
+12. Academy of Nightfall Arrow
+13. Academy of Dancing Daggers
+14. Academy of Enchanted Fan
 
-Each class evolves through structured ranks:
-
-* Basic Training
-* Skilled Combatant
-* Master Fighter
-* Grand Master
-* Perfect Master
-
----
-
-# 🏛️ **Academy Wings & Trainers**
-
----
-
-## 🗡️ 1. Academy of Swordsmen
-
-**Trainer:** Seraphim Caelen — Master of Sword Discipline
-
-* Dendera: Knight
-* Zonen: Arahan
-* Weapon Type: One-Handed Sword / Two-Handed Sword
-
-Focus: Balanced sword combat between offense and defense.
+Each wing reinforces the identity of a combat path and is used by the corresponding class trainer during instruction.
 
 ---
 
-## 🗡️ 2. Academy of Blood Knife
+## Class Trainers Inside the Academy
 
-**Trainer:** Mistress Asaya — Shadow Combat Specialist
+The Academy contains **only 7 trainers per faction**, each representing a single class.
 
-* Dendera: Assassin
-* Zonen: Rogue
-* Weapon Type: Dual Daggers
+### Dendera Trainers (7)
 
-Focus: Stealth combat, burst damage, combo execution.
+* Warrior — Sword (Knight)
+* Warrior — Spear (Defender)
+* Ninja — Bow (Archer)
+* Ninja — Dagger (Assassin)
+* Mage — Fan (Healer)
+* Mage — Bell (Dragon)
+* Vampire — Rapier
 
----
+### Zonen / Pindars Trainers (7)
 
-## 🛡️ 3. Academy of Eternal Shield
+* Warrior — Blade (Arahan) *(term adjusted from sword)*
+* Warrior — Spear (Paladin)
+* Ninja — Bow (Ranger)
+* Ninja — Dagger (Rogue)
+* Warlock — Scepter (Sorcerer)
+* Warlock — Staff *(weapon for Necromancer — staff with skull/totem focus)*
+* Werewolf — Claws
 
-**Trainer:** Barak Ironfist — Defensive Warfare Master
-
-* Dendera: Defender
-* Zonen: Paladin
-* Weapon Type: Glaive / Spear
-
-Focus: Defense, tanking, threat control, survival mastery.
-
----
-
-## ⚔️ 4. Academy of Wrath Sword
-
-**Trainer:** Master Arvos — Offensive Combat Specialist
-
-* Dendera: Knight (Offensive Path)
-* Zonen: Arahan (Offensive Path)
-* Weapon Type: One-Handed Sword / Two-Handed Sword
-
-Focus: Aggressive sword combat and high damage output.
+Each trainer operates in the wing that best reflects their combat philosophy.
 
 ---
 
-## 🌿 5. Academy of Essence of Life
+## Environment Features
 
-**Trainer:** Seer Kalista — Healing Arts Instructor
-
-* Dendera: Healer
-* Zonen: Healer Variant
-* Weapon Type: Fan
-
-Focus: Healing, buffs, restoration, support magic.
+* Weapon racks and armor displays
+* Sparring rings and combat circles
+* Practice dummies and moving targets
+* Elevated terrain and obstacles for tactical awareness
+* Ritual circles and elemental platforms for mystic classes
 
 ---
 
-## 🌑 6. Academy of Night
+## Purpose of the Academy
 
-**Trainer:** Lilith of the Shadows — Dark Arts Master
+This is not a place for quests or dialogue.
 
-* Dendera: Dragon Mage
-* Zonen: Sorcerer / Necromancer
-* Weapon Type: Scepter / Staff
+This is where:
 
-Focus: Elemental destruction, curses, dark summoning.
+* Classes are learned
+* Skills are refined
+* Mastery is achieved
 
----
-
-## 🗡️ 7. Academy of Purple Fangs
-
-**Trainer:** Jorak — Poison & Stealth Combat Expert
-
-* Dendera: Assassin Variant
-* Zonen: Rogue
-* Weapon Type: Dual Daggers
-
-Focus: Poison systems, traps, stealth enhancement.
-
----
-
-## 🏹 8. Academy of Bow Master
-
-**Trainer:** Ranger Ailith — Ranged Combat Specialist
-
-* Dendera: Archer
-* Zonen: Ranger
-* Weapon Type: Bow
-
-Focus: Precision shooting, mobility, ranged control.
-
----
-
-## 🔮 9. Academy of Eternal Scepter
-
-**Trainer:** Archmage Teralyn — Arcane Master
-
-* Dendera: Mage / Dragon Mage Variant
-* Zonen: Sorcerer / Necromancer Support Branch
-* Weapon Type: Scepter
-
-Focus: Elemental magic, arcane power scaling.
-
----
-
-## 🎶 10. Academy of Bright Bell
-
-**Trainer:** Melodian Callen — Song Magic Instructor
-
-* Dendera: Bard
-* Zonen: Bard Variant
-* Weapon Type: Bell
-
-Focus: Buffing, debuffing, team support through music.
-
----
-
-## 🛡️ 11. Academy of Mastery Guardians
-
-**Trainer:** Captain Rathar — Elite Paladin Commander
-
-* Dendera: Knight / Defender Hybrid Path
-* Zonen: Paladin Hybrid Path
-* Weapon Type: Sword / Spear
-
-Focus: Advanced hybrid combat mastery.
-
----
-
-## 🏹 12. Academy of Nightfall Arrow
-
-**Trainer:** Sable — Shadow Archer Specialist
-
-* Dendera: Shadow Archer
-* Zonen: Ranger Variant
-* Weapon Type: Bow
-
-Focus: Stealth ranged assassination.
-
----
-
-## 🗡️ 13. Academy of Dancing Daggers
-
-**Trainer:** Mistress Elena — Agile Dual Fighter Instructor
-
-* Dendera: Agile Fighter
-* Zonen: Rogue Variant
-* Weapon Type: Dual Daggers
-
-Focus: Speed combat, evasion, rapid strikes.
-
----
-
-## 🌬️ 14. Academy of Enchanted Fan
-
-**Trainer:** Maestra Lyra — Wind & Light Mystic
-
-* Dendera: Mystic
-* Zonen: Mystic Variant
-* Weapon Type: Fan
-
-Focus: Wind magic, support buffs, light-based control.
-
----
-
-# ⚔️ **Class System Mechanics Summary**
-
-### 🗡️ Rogue System
-
-* Combo Points system
-* Stealth execution scaling
-
-### 🧛 Vampire System
-
-* Blood Orbs mechanic
-* Life drain / sustain combat
-
-### 🐺 Werewolf System
-
-* Blood Orbs conversion
-* Reaction-based combat & counterattacks
+The Academy represents discipline, repetition, and perfection of combat arts under the supervision of the masters of each class.
 
 ---
