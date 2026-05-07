@@ -98,3 +98,48 @@ This is where:
 The Academy represents discipline, repetition, and perfection of combat arts under the supervision of the masters of each class.
 
 ---
+
+## **Dendera — Class Masters (7)**
+
+| Class       | Weapon         | NPC Name             | Title                         |
+| ----------- | -------------- | -------------------- | ----------------------------- |
+| Knight      | Sword          | **Seraphim Caelen**  | Master of the Wrath Sword     |
+| Defender    | Spear / Glaive | **Barak Ironfist**   | Master of the Eternal Shield  |
+| Assassin    | Daggers        | **Mistress Asaya**   | Master of the Blood Knife     |
+| Archer      | Bow            | **Ranger Ailith**    | Master of the Bow Mastery     |
+| Healer      | Fan            | **Seer Kalista**     | Master of the Essence of Life |
+| Dragon Mage | Bell           | **Archmage Teralyn** | Master of the Arcane Bell     |
+| Vampire     | Rapier         | **Lord Vaelthorne**  | Master of the Crimson Rapier  |
+
+---
+
+## **Zonen (Pindars) — Class Masters (7)**
+
+| Class       | Weapon       | NPC Name                  | Title                         |
+| ----------- | ------------ | ------------------------- | ----------------------------- |
+| Arahan      | Blade        | **Master Arvos**          | Master of the Wrath Blade     |
+| Paladin     | Spear        | **Captain Rathar**        | Master of the Guardian Spear  |
+| Rogue       | Daggers      | **Trainer Jorak**         | Master of the Purple Fangs    |
+| Ranger      | Bow          | **Trainer Sable**         | Master of the Nightfall Arrow |
+| Sorcerer    | Scepter      | **Maestra Lyra**          | Master of the Eternal Scepter |
+| Necromancer | Ritual Focus | **Lilith of the Shadows** | Master of the Night Arts      |
+| Werewolf    | Claws        | **Fenric Bloodhowl**      | Master of the Primal Claws    |
+
+---
+
+## Shared Traits of All 14 Class Masters (for when we write files)
+
+These will be reflected identically in all NPC files:
+
+* Skillable NPC
+* Can be challenged for Sparring
+* Adjusts power to player’s level, gear, skills
+* Explains class skills, combos, hidden mechanics
+* Unlocks **Ultimate Skill** (future system)
+* No quests
+* Never moves from position
+* Distinct aura while idle
+* Attire visually represents their combat art
+* Higher authority than starting zone skill trainers
+
+---
