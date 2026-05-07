@@ -122,7 +122,7 @@ The Academy represents discipline, repetition, and perfection of combat arts und
 | Rogue       | Daggers      | **Trainer Jorak**         | Master of the Purple Fangs    |
 | Ranger      | Bow          | **Trainer Sable**         | Master of the Nightfall Arrow |
 | Sorcerer    | Scepter      | **Maestra Lyra**          | Master of the Eternal Scepter |
-| Necromancer | Ritual Focus | **Lilith of the Shadows** | Master of the Night Arts      |
+| Necromancer | Ritual Focus | **Varek Duskgrave	  ** | Master of the Night Arts      |
 | Werewolf    | Claws        | **Fenric Bloodhowl**      | Master of the Primal Claws    |
 
 ---
