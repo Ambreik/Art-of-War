@@ -1,3 +1,0 @@
-			SHOP
-			
-*Impa Fishing Raft : 
