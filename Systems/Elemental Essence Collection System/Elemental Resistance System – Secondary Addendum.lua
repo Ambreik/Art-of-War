@@ -164,3 +164,61 @@ ensuring:
 	Resistance enhances survival — it never replaces skill.
 
 ---
+
+
+		
+Elemental Penetration — Clarified Calculation
+
+
+Elemental Penetration reduces the target's displayed resistance before the nonlinear resistance curve is applied.
+
+
+Formula:
+
+
+Effective Resistance = max(0, Displayed Elemental Resistance − Effective Elemental Penetration)
+
+
+The displayed resistance is capped at 50% before penetration is applied. Penetration is measured in percentage points and cannot reduce resistance below 0%.
+
+
+Healer-aware scaling:
+
+
+
+
+One or fewer active healers: no healer-based adjustment; base penetration applies.
+
+
+Each additional active healer beyond the first adds 1.5 percentage points.
+
+
+Maximum effective Elemental Penetration: 20%.
+
+
+
+
+Corrected example:
+
+
+
+
+Displayed elemental resistance: 50%
+
+
+Effective Elemental Penetration: 18%
+
+
+Resistance used by the nonlinear curve: 32%
+
+
+Approximate actual damage reduction: 25%, based on the existing resistance table.
+
+
+
+
+Elemental Penetration applies only to the relevant elemental damage and only against eligible PvE encounter classes. It is disabled in PvP, duels, arenas, and battlegrounds.
+
+
+The existing base penetration ranges, entity eligibility, activation controls, and UI transparency rules remain unchanged.
+
